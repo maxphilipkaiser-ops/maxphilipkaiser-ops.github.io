@@ -1,0 +1,21 @@
+{
+  "folders": [
+    "piano",
+    "violin",
+    "flute"
+  ],
+  "presets": {
+    "piano": {
+      "bank": 0,
+      "program": 1
+    },
+    "violin": {
+      "bank": 0,
+      "program": 40
+    },
+    "flute": {
+      "bank": 0,
+      "program": 73
+    }
+  }
+}

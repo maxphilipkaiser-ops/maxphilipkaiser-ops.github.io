@@ -1,0 +1,27 @@
+{
+  "fontId": "HQ_Orchestral_HD",
+  "source": "HQ_Orchestral_Soundfont_Collection_v3.0.sf2",
+  "instruments": {
+    "violin": 14,
+    "viola": 14,
+    "cello": 17,
+    "double_bass": 14,
+    "flute": 13,
+    "piccolo": 11,
+    "oboe": 12,
+    "english_horn": 11,
+    "clarinet": 15,
+    "bass_clarinet": 15,
+    "bassoon": 14,
+    "contrabassoon": 13,
+    "alto_sax": 11,
+    "french_horn": 15,
+    "trumpet": 12,
+    "trombone": 13,
+    "bass_trombone": 13,
+    "tuba": 14,
+    "organ": 25,
+    "piano": 30,
+    "harpsichord": 21
+  }
+}

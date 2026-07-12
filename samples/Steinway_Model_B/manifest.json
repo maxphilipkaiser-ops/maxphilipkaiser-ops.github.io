@@ -1,0 +1,11 @@
+{
+  "folders": [
+    "piano"
+  ],
+  "presets": {
+    "piano": {
+      "bank": 0,
+      "program": 0
+    }
+  }
+}

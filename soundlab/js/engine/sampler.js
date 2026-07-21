@@ -80,8 +80,12 @@ function spawnVoice(ctx, candidate, zone, midi, o) {
     ({ lfo } = applySynthVibrato(ctx, src, o.vibrato, t0, o.lfoRate));
   }
 
+  const handle = { src, g, lfo, looped, ctx, released: false, ended: false };
+  // Mark the voice finished when the source truly ends (natural end, release, or hard stop),
+  // so tracking can prune it WITHOUT ever discarding a still-sounding voice.
+  src.onended = () => { handle.ended = true; };
   src.start(t0);
-  return { src, g, lfo, looped, ctx, released: false, ended: false };
+  return handle;
 }
 
 // Apply the release envelope to a voice handle at (audio) time `when`.
@@ -111,6 +115,23 @@ export function releaseVoice(h, when) {
 
 function safeStop(node, when) {
   try { node.stop(when); } catch (e) { /* already scheduled/stopped */ }
+}
+
+// Hard-stop a voice for the global Stop button: a 10 ms de-click fade to silence, then
+// stop the source (and LFO) immediately. Works for voices already sounding AND for
+// look-ahead voices whose start time is still in the future (stop before start = never
+// audible), guaranteeing total silence.
+export function hardStopVoice(h, when) {
+  if (!h) return;
+  h.released = true;
+  const { g, src, lfo } = h;
+  try {
+    g.gain.cancelScheduledValues(when);
+    g.gain.setValueAtTime(Math.max(0.0001, g.gain.value), when);
+    g.gain.linearRampToValueAtTime(0.0001, when + 0.01);
+  } catch (e) { /* param already torn down */ }
+  safeStop(src, when + 0.02);
+  if (lfo) safeStop(lfo, when + 0.02);
 }
 
 // Bake a short equal-power crossfade into the loop seam so a native BufferSource

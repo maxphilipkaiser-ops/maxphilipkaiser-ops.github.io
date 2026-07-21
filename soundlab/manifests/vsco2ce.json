@@ -3693,6 +3693,715 @@
           "rr": 1
         }
       ]
+    },
+    "bassoon": {
+      "displayName": "Bassoon",
+      "kind": "solo",
+      "sampledVibrato": true,
+      "transposeSemis": -12,
+      "zones": [
+        {
+          "file": "samples/vsco2ce/bassoon/A#1_f_novib_rr1.flac",
+          "rootMidi": 34,
+          "loKey": 34,
+          "hiKey": 35,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A#1_p_novib_rr1.flac",
+          "rootMidi": 34,
+          "loKey": 34,
+          "hiKey": 35,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C#2_f_novib_rr1.flac",
+          "rootMidi": 37,
+          "loKey": 36,
+          "hiKey": 38,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C#2_p_novib_rr1.flac",
+          "rootMidi": 37,
+          "loKey": 36,
+          "hiKey": 38,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/F2_f_novib_rr1.flac",
+          "rootMidi": 41,
+          "loKey": 39,
+          "hiKey": 42,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/F2_p_novib_rr1.flac",
+          "rootMidi": 41,
+          "loKey": 39,
+          "hiKey": 42,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/G2_f_vib_rr1.flac",
+          "rootMidi": 43,
+          "loKey": 36,
+          "hiKey": 43,
+          "dynamic": "f",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/G2_p_vib_rr1.flac",
+          "rootMidi": 43,
+          "loKey": 36,
+          "hiKey": 43,
+          "dynamic": "p",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A2_f_novib_rr1.flac",
+          "rootMidi": 45,
+          "loKey": 43,
+          "hiKey": 45,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A2_f_vib_rr1.flac",
+          "rootMidi": 45,
+          "loKey": 44,
+          "hiKey": 46,
+          "dynamic": "f",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A2_p_novib_rr1.flac",
+          "rootMidi": 45,
+          "loKey": 43,
+          "hiKey": 45,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A2_p_vib_rr1.flac",
+          "rootMidi": 45,
+          "loKey": 44,
+          "hiKey": 46,
+          "dynamic": "p",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A#2_f_novib_rr1.flac",
+          "rootMidi": 46,
+          "loKey": 46,
+          "hiKey": 46,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A#2_p_novib_rr1.flac",
+          "rootMidi": 46,
+          "loKey": 46,
+          "hiKey": 46,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C3_f_novib_rr1.flac",
+          "rootMidi": 48,
+          "loKey": 47,
+          "hiKey": 51,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C3_f_vib_rr1.flac",
+          "rootMidi": 48,
+          "loKey": 47,
+          "hiKey": 51,
+          "dynamic": "f",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C3_p_novib_rr1.flac",
+          "rootMidi": 48,
+          "loKey": 47,
+          "hiKey": 51,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C3_p_vib_rr1.flac",
+          "rootMidi": 48,
+          "loKey": 47,
+          "hiKey": 51,
+          "dynamic": "p",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/G3_f_novib_rr1.flac",
+          "rootMidi": 55,
+          "loKey": 52,
+          "hiKey": 57,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/G3_f_vib_rr1.flac",
+          "rootMidi": 55,
+          "loKey": 52,
+          "hiKey": 55,
+          "dynamic": "f",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/G3_p_novib_rr1.flac",
+          "rootMidi": 55,
+          "loKey": 52,
+          "hiKey": 57,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/G3_p_vib_rr1.flac",
+          "rootMidi": 55,
+          "loKey": 52,
+          "hiKey": 55,
+          "dynamic": "p",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A3_mf_vib_rr1.flac",
+          "rootMidi": 57,
+          "loKey": 56,
+          "hiKey": 58,
+          "dynamic": "mf",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C4_f_novib_rr1.flac",
+          "rootMidi": 60,
+          "loKey": 58,
+          "hiKey": 61,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C4_f_vib_rr1.flac",
+          "rootMidi": 60,
+          "loKey": 59,
+          "hiKey": 61,
+          "dynamic": "f",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C4_mf_vib_rr1.flac",
+          "rootMidi": 60,
+          "loKey": 59,
+          "hiKey": 61,
+          "dynamic": "mf",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C4_p_novib_rr1.flac",
+          "rootMidi": 60,
+          "loKey": 58,
+          "hiKey": 61,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C4_p_vib_rr1.flac",
+          "rootMidi": 60,
+          "loKey": 59,
+          "hiKey": 61,
+          "dynamic": "p",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/D#4_f_novib_rr1.flac",
+          "rootMidi": 63,
+          "loKey": 62,
+          "hiKey": 65,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/D#4_p_novib_rr1.flac",
+          "rootMidi": 63,
+          "loKey": 62,
+          "hiKey": 65,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/E4_f_vib_rr1.flac",
+          "rootMidi": 64,
+          "loKey": 62,
+          "hiKey": 65,
+          "dynamic": "f",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/E4_mf_vib_rr1.flac",
+          "rootMidi": 64,
+          "loKey": 62,
+          "hiKey": 65,
+          "dynamic": "mf",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/E4_p_vib_rr1.flac",
+          "rootMidi": 64,
+          "loKey": 62,
+          "hiKey": 65,
+          "dynamic": "p",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/G4_f_vib_rr1.flac",
+          "rootMidi": 67,
+          "loKey": 66,
+          "hiKey": 67,
+          "dynamic": "f",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/G4_p_vib_rr1.flac",
+          "rootMidi": 67,
+          "loKey": 66,
+          "hiKey": 67,
+          "dynamic": "p",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/G#4_f_novib_rr1.flac",
+          "rootMidi": 68,
+          "loKey": 66,
+          "hiKey": 68,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/G#4_p_novib_rr1.flac",
+          "rootMidi": 68,
+          "loKey": 66,
+          "hiKey": 68,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A4_f_novib_rr1.flac",
+          "rootMidi": 69,
+          "loKey": 69,
+          "hiKey": 70,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A4_f_vib_rr1.flac",
+          "rootMidi": 69,
+          "loKey": 68,
+          "hiKey": 70,
+          "dynamic": "f",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A4_p_novib_rr1.flac",
+          "rootMidi": 69,
+          "loKey": 69,
+          "hiKey": 70,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/A4_p_vib_rr1.flac",
+          "rootMidi": 69,
+          "loKey": 68,
+          "hiKey": 70,
+          "dynamic": "p",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C5_f_novib_rr1.flac",
+          "rootMidi": 72,
+          "loKey": 71,
+          "hiKey": 73,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C5_f_vib_rr1.flac",
+          "rootMidi": 72,
+          "loKey": 71,
+          "hiKey": 72,
+          "dynamic": "f",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C5_p_novib_rr1.flac",
+          "rootMidi": 72,
+          "loKey": 71,
+          "hiKey": 73,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/C5_p_vib_rr1.flac",
+          "rootMidi": 72,
+          "loKey": 71,
+          "hiKey": 72,
+          "dynamic": "p",
+          "vib": true,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/bassoon/D#5_mf_novib_rr1.flac",
+          "rootMidi": 75,
+          "loKey": 74,
+          "hiKey": 75,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "trombone": {
+      "displayName": "Trombone",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": -12,
+      "zones": [
+        {
+          "file": "samples/vsco2ce/trombone/A#1_f_novib_rr1.flac",
+          "rootMidi": 34,
+          "loKey": 34,
+          "hiKey": 35,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/A#1_p_novib_rr1.flac",
+          "rootMidi": 34,
+          "loKey": 34,
+          "hiKey": 35,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/C#2_f_novib_rr1.flac",
+          "rootMidi": 37,
+          "loKey": 36,
+          "hiKey": 37,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/C#2_p_novib_rr1.flac",
+          "rootMidi": 37,
+          "loKey": 36,
+          "hiKey": 37,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/D#2_f_novib_rr1.flac",
+          "rootMidi": 39,
+          "loKey": 38,
+          "hiKey": 39,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/D#2_mf_novib_rr1.flac",
+          "rootMidi": 39,
+          "loKey": 38,
+          "hiKey": 39,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/D#2_p_novib_rr1.flac",
+          "rootMidi": 39,
+          "loKey": 38,
+          "hiKey": 39,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/F2_f_novib_rr1.flac",
+          "rootMidi": 41,
+          "loKey": 40,
+          "hiKey": 43,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/F2_mf_novib_rr1.flac",
+          "rootMidi": 41,
+          "loKey": 40,
+          "hiKey": 43,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/F2_p_novib_rr1.flac",
+          "rootMidi": 41,
+          "loKey": 40,
+          "hiKey": 43,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/A#2_f_novib_rr1.flac",
+          "rootMidi": 46,
+          "loKey": 44,
+          "hiKey": 47,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/A#2_mf_novib_rr1.flac",
+          "rootMidi": 46,
+          "loKey": 44,
+          "hiKey": 47,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/A#2_p_novib_rr1.flac",
+          "rootMidi": 46,
+          "loKey": 44,
+          "hiKey": 47,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/D3_f_novib_rr1.flac",
+          "rootMidi": 50,
+          "loKey": 48,
+          "hiKey": 51,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/D3_mf_novib_rr1.flac",
+          "rootMidi": 50,
+          "loKey": 48,
+          "hiKey": 51,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/D3_p_novib_rr1.flac",
+          "rootMidi": 50,
+          "loKey": 48,
+          "hiKey": 51,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/F3_f_novib_rr1.flac",
+          "rootMidi": 53,
+          "loKey": 52,
+          "hiKey": 56,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/F3_mf_novib_rr1.flac",
+          "rootMidi": 53,
+          "loKey": 52,
+          "hiKey": 56,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/F3_p_novib_rr1.flac",
+          "rootMidi": 53,
+          "loKey": 52,
+          "hiKey": 56,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/C4_f_novib_rr1.flac",
+          "rootMidi": 60,
+          "loKey": 57,
+          "hiKey": 60,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/C4_mf_novib_rr1.flac",
+          "rootMidi": 60,
+          "loKey": 57,
+          "hiKey": 60,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/C4_p_novib_rr1.flac",
+          "rootMidi": 60,
+          "loKey": 57,
+          "hiKey": 60,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/C#4_f_novib_rr1.flac",
+          "rootMidi": 61,
+          "loKey": 61,
+          "hiKey": 61,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/C#4_mf_novib_rr1.flac",
+          "rootMidi": 61,
+          "loKey": 61,
+          "hiKey": 61,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/C#4_p_novib_rr1.flac",
+          "rootMidi": 61,
+          "loKey": 61,
+          "hiKey": 61,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/D#4_f_novib_rr1.flac",
+          "rootMidi": 63,
+          "loKey": 62,
+          "hiKey": 63,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/D#4_mf_novib_rr1.flac",
+          "rootMidi": 63,
+          "loKey": 62,
+          "hiKey": 63,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/D#4_p_novib_rr1.flac",
+          "rootMidi": 63,
+          "loKey": 62,
+          "hiKey": 63,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/F4_f_novib_rr1.flac",
+          "rootMidi": 65,
+          "loKey": 64,
+          "hiKey": 65,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/F4_mf_novib_rr1.flac",
+          "rootMidi": 65,
+          "loKey": 64,
+          "hiKey": 65,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/trombone/F4_p_novib_rr1.flac",
+          "rootMidi": 65,
+          "loKey": 64,
+          "hiKey": 65,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        }
+      ]
     }
   },
   "notes": "Curated from the VSCO-2-CE SFZ branch (shallow clone, 2026-07-19). Sustain articulations only (no pizz/spic/trem/KS). Key ranges and dynamic layers parsed directly from each instrument's .sfz (lokey/hikey/pitch_keycenter/lovel/hivel); per-region SFZ \"volume\" trim baked into each FLAC at transcode time (manifest zone gainDb intentionally omitted -- already applied). Source sustains have no loop points (VSCO2 sustains are unlooped one-shot recordings; loopStart/loopEnd omitted throughout, as expected). Dynamic-layer mapping: 1 velocity layer -> mf; 2 -> p/f; 3+ -> first=p, last=f, interior=mf (source has no explicit pp/ff layers). Sections (violin-section/viola-section/cello-section) kept in stereo to preserve real multi-player recorded width; solo instruments (violin, contrabass, flute, oboe, clarinet, trumpet, horn, piano) downmixed to mono to fit the 150MB budget across ~400 zones. Each zone trimmed to ~10ms pre-attack pad, content capped at 5.5s with a 0.25s safety fade-out when the source's own natural decay extends past the cap (attack and any natural decay/tail occurring before the cap are preserved unmodified; never clips an attack). Loudness: integrated LUFS measured via ffmpeg ebur128 across 10 representative mf/middle-register curated samples (flute x2, clarinet x3, horn x3, piano x2): [-25.1, -29.2, -12.2, -12.8, -10.6, -16, -15.6, -26.8, -34.3, -27], mean = -20.96 LUFS -> gainOffsetDb = clamp(-18 - -20.96, ±12) = 2.96. sampledVibrato:true only for flute/oboe/trumpet/contrabass (genuinely both vib:true and vib:false recorded per dossier); all other instruments' zones carry a single, truthful vib flag matching what was actually recorded (violin/sections/=vib:true only; clarinet/horn/piano=vib:false only) -- no fabricated opposite-vib zones were created."

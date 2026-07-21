@@ -5,6 +5,7 @@
     "manifests/iowa.json",
     "manifests/salamander.json",
     "manifests/sgm.json",
+    "manifests/squid.json",
     "manifests/current-hqhd.json",
     "manifests/current-cdn.json"
   ],

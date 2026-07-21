@@ -85,7 +85,11 @@ export class FxChain {
   }
 }
 
-// Synthetic stereo hall: exponentially-decaying, slightly-diffuse noise.
+// Synthetic stereo hall. A RAW white-noise IR sounds like broadband hiss/"static" (its
+// energy is flat to Nyquist), which is very audible on bright sources and accumulates into
+// continuous hiss when a phrase loops. A real hall's tail rolls off HF strongly (air
+// absorption). So we band-limit the noise with a one-pole low-pass whose cutoff FALLS as the
+// tail decays — turning the hiss into a smooth, dark, hall-like tail.
 export function makeSyntheticIR(ctx, seconds = 2.5) {
   const sr = ctx.sampleRate;
   const len = Math.floor(sr * seconds);
@@ -93,13 +97,22 @@ export function makeSyntheticIR(ctx, seconds = 2.5) {
   const tau = seconds * 0.32;
   for (let ch = 0; ch < 2; ch++) {
     const d = buf.getChannelData(ch);
+    let lp = 0;
+    let peak = 1e-9;
     for (let i = 0; i < len; i++) {
       const t = i / sr;
-      // small early-reflection bump + smooth exponential tail
       const env = Math.exp(-t / tau);
       const early = t < 0.08 ? 0.4 * Math.exp(-t / 0.02) : 0;
-      d[i] = (Math.random() * 2 - 1) * (env + early);
+      // one-pole LP coefficient: brighter early (~0.4), progressively darker into the tail
+      const a = Math.max(0.05, 0.4 - 0.34 * (t / seconds));
+      lp += a * ((Math.random() * 2 - 1) - lp);
+      d[i] = lp * (env + early);
+      const abs = Math.abs(d[i]);
+      if (abs > peak) peak = abs;
     }
+    // normalise (low-passing lowers the level) so the wet/dry mix stays meaningful
+    const norm = 0.9 / peak;
+    for (let i = 0; i < len; i++) d[i] *= norm;
   }
   return buf;
 }

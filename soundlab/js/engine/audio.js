@@ -2,7 +2,7 @@
 // note triggering, and live-play voice tracking.
 
 import { FxChain, makeSyntheticIR } from './fx.js';
-import { startNote, releaseVoice } from './sampler.js';
+import { startNote, releaseVoice, hardStopVoice } from './sampler.js';
 import { Scheduler } from './scheduler.js';
 import { encodePath } from '../util.js';
 
@@ -22,6 +22,7 @@ export class Engine {
 
     this.activeVoices = [];
     this.liveVoices = {}; // key `${slot}:${midi}` -> handle array
+    this._registry = []; // diagnostic: every voice ever created (pruned by ended flag)
     this.scheduler = new Scheduler(this);
     this._started = false;
   }
@@ -78,7 +79,17 @@ export class Engine {
 
   trackVoice(h) {
     this.activeVoices.push(h);
-    if (this.activeVoices.length > 400) this.activeVoices.splice(0, 100);
+    this._registry.push(h);
+    // Cap memory by evicting ONLY voices that have finished sounding — never drop a
+    // still-playing voice (that was the old Stop-button bug: dropped voices couldn't be
+    // released and rang to their natural end).
+    if (this.activeVoices.length > 512) this.activeVoices = this.activeVoices.filter((v) => !v.ended);
+    if (this._registry.length > 4096) this._registry = this._registry.filter((v) => !v.ended);
+  }
+
+  // Diagnostic: how many voices are still sounding (started, not yet ended).
+  soundingVoiceCount() {
+    return this._registry.filter((v) => !v.ended).length;
   }
 
   // Play a note on BOTH loaded candidates in sync (so A/B swaps are instant, mid-phrase).
@@ -124,8 +135,13 @@ export class Engine {
 
   stopAllVoices() {
     if (!this.ctx) return;
-    const when = this.ctx.currentTime;
-    for (const h of this.activeVoices) releaseVoice(h, when);
+    const now = this.ctx.currentTime;
+    // Hard-stop EVERY voice: phrase voices, look-ahead voices scheduled in the future,
+    // and sustained live-play voices. Stop always means total silence.
+    for (const h of this.activeVoices) hardStopVoice(h, now);
+    for (const key of Object.keys(this.liveVoices)) {
+      for (const h of this.liveVoices[key]) hardStopVoice(h, now);
+    }
     this.activeVoices = [];
     this.liveVoices = {};
   }

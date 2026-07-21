@@ -70,8 +70,11 @@ async function loadCandidateList() {
     }
   }
   irCfg = (cfg && cfg.irs) || [];
-  // Placeholders are always appended (clearly labelled) so the tool is always exercisable.
-  cands.push(...makePlaceholders());
+  // Synthetic placeholder candidates were dev scaffolding. Now that real candidates exist
+  // they are hidden by default. Show them only with ?debug in the URL, or as a last-resort
+  // fallback when no real candidate loaded (so the tool is never empty).
+  const showPlaceholders = new URLSearchParams(location.search).has('debug');
+  if (showPlaceholders || cands.length === 0) cands.push(...makePlaceholders());
   return cands;
 }
 
@@ -144,7 +147,10 @@ function unionInstrumentIds() {
     if (c) c.soloInstrumentIds().forEach((id) => ids.add(id));
   }
   // stable order by a canonical instrument list, then any extras
-  const order = ['violin', 'viola', 'cello', 'flute', 'oboe', 'clarinet', 'trumpet', 'horn', 'piano'];
+  // strings, then woodwinds (…clarinet, bassoon), then brass (…horn, trombone), then keys
+  const order = ['violin', 'viola', 'cello', 'contrabass',
+    'flute', 'oboe', 'clarinet', 'bassoon',
+    'trumpet', 'horn', 'trombone', 'piano'];
   return [...ids].sort((a, b) => {
     const ia = order.indexOf(a), ib = order.indexOf(b);
     return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
@@ -393,13 +399,19 @@ function setSegDisabled(sel, val, disabled) {
 function populateIRSelect() {
   const sel = $('#irSelect');
   sel.innerHTML = '';
-  for (const [id, ir] of Object.entries(engine.fx.irs)) {
+  const ids = Object.keys(engine.fx.irs);
+  for (const id of ids) {
     const o = document.createElement('option');
     o.value = id;
-    o.textContent = ir.name;
+    o.textContent = engine.fx.irs[id].name;
     sel.appendChild(o);
   }
-  sel.value = 'synthetic';
+  // Prefer a REAL recorded hall as the default when candidates.json provides one; the
+  // synthetic hall is only a fallback (its band-limited noise is still cleaner now, but a
+  // measured space sounds better and avoids any reverb-hiss impression).
+  const def = ids.find((id) => id !== 'synthetic') || 'synthetic';
+  sel.value = def;
+  engine.fx.setIR(def);
 }
 
 function startStatusPoll() {

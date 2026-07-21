@@ -5,7 +5,7 @@
   "license": "Public Domain",
   "sourceUrl": "https://theremin.music.uiowa.edu/MIS.html",
   "gainOffsetDb": 10.54,
-  "notes": "24-bit reference recordings, individually miked, split from the University of Iowa Electronic Music Studios instrument library into per-note FLAC files (pp/mf/ff dynamics, vib/novib where performed, rr1/rr2 round-robin where multiple takes exist per note). Loudness: ffmpeg ebur128 integrated loudness (I:) measured across 10 representative mf middle-register zones spanning all 8 instruments (violin, viola, cello, flute, oboe, clarinet, trumpet, horn) -> mean integrated loudness -28.54 LUFS. gainOffsetDb = clamp(-18 - meanLUFS, ±12) = 10.54 dB. Pitch-verified via YIN + FFT narrowband peak-pick + autocorrelation cross-check across all 8 instruments spanning low/mid/high registers: measured fundamentals matched the filename-derived rootMidi within a few cents to ~20 cents in nearly all cases. The extreme top-of-range notes for violin (D6 and above, i.e. the highest handful of notes up to A7) and flute (C7) showed larger, non-fixed deviations (tens to ~200 cents, inconsistent in sign/magnitude) under all three independent pitch-tracking methods -- this does not match the signature of a note-name/octave parsing bug (which would show a constant semitone/octave offset across an entire instrument); it is consistent with genuine weak-fundamental/harmonic-technique recordings at the acoustic limits of those instruments' ranges. Filenames use flat (\"b\") accidentals only (no sharps present on disk); parsed via standard scientific pitch notation (C4=60, A4=69). DATA-QUALITY FIX: an RMS sweep of the 34 smallest FLAC files on disk found 26 that were near-silent/corrupted splits (true digital silence for most or all of their short duration) rather than valid notes -- these 26 zone entries were REMOVED from this manifest entirely (not just flagged) so the engine cannot select them and play silence; each affected (instrument,dynamic,vib) keyrange group was re-tiled over its surviving zones so no dead/silent keyranges remain (repitch fallback covers the vacated bands from neighboring good samples). Total zones after removal: 1231 (was 1257). Removed files: cello/G3_ff_vib_rr1.flac, oboe/G4_mf_novib_rr1.flac, oboe/Gb4_pp_novib_rr1.flac, viola/A4_mf_vib_rr2.flac, viola/D4_mf_vib_rr1.flac, viola/D6_mf_vib_rr1.flac, viola/D6_mf_vib_rr2.flac, violin/A7_ff_vib_rr1.flac, violin/Ab5_ff_vib_rr2.flac, violin/Ab6_ff_vib_rr1.flac, violin/B6_ff_vib_rr1.flac, violin/B7_ff_vib_rr1.flac, violin/D4_ff_vib_rr2.flac, violin/D7_ff_vib_rr1.flac, violin/Db6_ff_vib_rr2.flac, violin/Db6_mf_vib_rr2.flac, violin/E5_ff_vib_rr1.flac, violin/Eb5_ff_vib_rr2.flac, violin/Eb6_ff_vib_rr1.flac, violin/Eb6_ff_vib_rr2.flac, violin/Eb6_mf_vib_rr2.flac, violin/F6_mf_vib_rr1.flac, violin/F7_mf_vib_rr1.flac, violin/Gb4_ff_vib_rr2.flac, violin/Gb6_ff_vib_rr1.flac, violin/Gb6_mf_vib_rr2.flac.",
+  "notes": "24-bit reference recordings, individually miked, split from the University of Iowa Electronic Music Studios instrument library into per-note FLAC files (pp/mf/ff dynamics, vib/novib where performed, rr1/rr2 round-robin where multiple takes exist per note). Loudness: ffmpeg ebur128 integrated loudness (I:) measured across 10 representative mf middle-register zones spanning all 8 instruments (violin, viola, cello, flute, oboe, clarinet, trumpet, horn) -> mean integrated loudness -28.54 LUFS. gainOffsetDb = clamp(-18 - meanLUFS, ±12) = 10.54 dB. Pitch-verified via YIN + FFT narrowband peak-pick + autocorrelation cross-check across all 8 instruments spanning low/mid/high registers: measured fundamentals matched the filename-derived rootMidi within a few cents to ~20 cents in nearly all cases. The extreme top-of-range notes for violin (D6 and above, i.e. the highest handful of notes up to A7) and flute (C7) showed larger, non-fixed deviations (tens to ~200 cents, inconsistent in sign/magnitude) under all three independent pitch-tracking methods -- this does not match the signature of a note-name/octave parsing bug (which would show a constant semitone/octave offset across an entire instrument); it is consistent with genuine weak-fundamental/harmonic-technique recordings at the acoustic limits of those instruments' ranges. Filenames use flat (\"b\") accidentals only (no sharps present on disk); parsed via standard scientific pitch notation (C4=60, A4=69). DATA-QUALITY FIX: an RMS sweep of the 34 smallest FLAC files on disk found 26 that were near-silent/corrupted splits (true digital silence for most or all of their short duration) rather than valid notes -- these 26 zone entries were REMOVED from this manifest entirely (not just flagged) so the engine cannot select them and play silence; each affected (instrument,dynamic,vib) keyrange group was re-tiled over its surviving zones so no dead/silent keyranges remain (repitch fallback covers the vacated bands from neighboring good samples). Total zones after removal: 1231 (was 1257). Removed files: cello/G3_ff_vib_rr1.flac, oboe/G4_mf_novib_rr1.flac, oboe/Gb4_pp_novib_rr1.flac, viola/A4_mf_vib_rr2.flac, viola/D4_mf_vib_rr1.flac, viola/D6_mf_vib_rr1.flac, viola/D6_mf_vib_rr2.flac, violin/A7_ff_vib_rr1.flac, violin/Ab5_ff_vib_rr2.flac, violin/Ab6_ff_vib_rr1.flac, violin/B6_ff_vib_rr1.flac, violin/B7_ff_vib_rr1.flac, violin/D4_ff_vib_rr2.flac, violin/D7_ff_vib_rr1.flac, violin/Db6_ff_vib_rr2.flac, violin/Db6_mf_vib_rr2.flac, violin/E5_ff_vib_rr1.flac, violin/Eb5_ff_vib_rr2.flac, violin/Eb6_ff_vib_rr1.flac, violin/Eb6_ff_vib_rr2.flac, violin/Eb6_mf_vib_rr2.flac, violin/F6_mf_vib_rr1.flac, violin/F7_mf_vib_rr1.flac, violin/Gb4_ff_vib_rr2.flac, violin/Gb6_ff_vib_rr1.flac, violin/Gb6_mf_vib_rr2.flac. SECOND DATA-QUALITY FIX (post leading/trailing-silence-trim cleanup): after trimming leading/trailing silence across all 1231 zones (onset detection via merged-loud-group analysis), 20 additional zones were found to be silent/near-silent throughout their entire duration with no recoverable attack (peak levels roughly -40 to -80 dBFS across their full length, the same signature as the originally-removed 26) -- these were removed from the manifest and their (instrument,dynamic,vib) keyrange groups re-tiled over the surviving zones using MIDI-midpoint splitting between adjacent root notes (same procedure as the first removal pass). Total zones after this second removal: 1211 (was 1231). Removed files: cello/B4_mf_vib_rr1.flac, cello/D5_mf_vib_rr2.flac, oboe/Eb4_mf_novib_rr1.flac, viola/Eb6_ff_vib_rr1.flac, viola/Gb6_ff_vib_rr1.flac, violin/A5_mf_vib_rr2.flac, violin/B5_mf_vib_rr1.flac, violin/Bb5_ff_vib_rr1.flac, violin/Bb5_ff_vib_rr2.flac, violin/Bb6_mf_vib_rr1.flac, violin/Db5_ff_vib_rr2.flac, violin/Db5_mf_vib_rr2.flac, violin/Db7_mf_vib_rr1.flac, violin/Eb7_mf_vib_rr1.flac, violin/F5_mf_vib_rr2.flac, violin/F6_ff_vib_rr2.flac, violin/F7_ff_vib_rr1.flac, violin/G6_mf_vib_rr1.flac, violin/Gb4_mf_vib_rr2.flac, violin/Gb5_ff_vib_rr2.flac.",
   "instruments": {
     "violin": {
       "displayName": "Violin",
@@ -266,15 +266,6 @@
           "rr": 1
         },
         {
-          "file": "samples/iowa/violin/Db5_ff_vib_rr2.flac",
-          "rootMidi": 73,
-          "loKey": 73,
-          "hiKey": 73,
-          "dynamic": "f",
-          "vib": true,
-          "rr": 2
-        },
-        {
           "file": "samples/iowa/violin/D5_ff_vib_rr1.flac",
           "rootMidi": 74,
           "loKey": 74,
@@ -338,15 +329,6 @@
           "rr": 1
         },
         {
-          "file": "samples/iowa/violin/Gb5_ff_vib_rr2.flac",
-          "rootMidi": 78,
-          "loKey": 78,
-          "hiKey": 78,
-          "dynamic": "f",
-          "vib": true,
-          "rr": 2
-        },
-        {
           "file": "samples/iowa/violin/G5_ff_vib_rr1.flac",
           "rootMidi": 79,
           "loKey": 79,
@@ -377,7 +359,7 @@
           "file": "samples/iowa/violin/A5_ff_vib_rr1.flac",
           "rootMidi": 81,
           "loKey": 81,
-          "hiKey": 81,
+          "hiKey": 82,
           "dynamic": "f",
           "vib": true,
           "rr": 1
@@ -386,24 +368,6 @@
           "file": "samples/iowa/violin/A5_ff_vib_rr2.flac",
           "rootMidi": 81,
           "loKey": 81,
-          "hiKey": 81,
-          "dynamic": "f",
-          "vib": true,
-          "rr": 2
-        },
-        {
-          "file": "samples/iowa/violin/Bb5_ff_vib_rr1.flac",
-          "rootMidi": 82,
-          "loKey": 82,
-          "hiKey": 82,
-          "dynamic": "f",
-          "vib": true,
-          "rr": 1
-        },
-        {
-          "file": "samples/iowa/violin/Bb5_ff_vib_rr2.flac",
-          "rootMidi": 82,
-          "loKey": 82,
           "hiKey": 82,
           "dynamic": "f",
           "vib": true,
@@ -500,15 +464,6 @@
           "rr": 1
         },
         {
-          "file": "samples/iowa/violin/F6_ff_vib_rr2.flac",
-          "rootMidi": 89,
-          "loKey": 89,
-          "hiKey": 89,
-          "dynamic": "f",
-          "vib": true,
-          "rr": 2
-        },
-        {
           "file": "samples/iowa/violin/Gb6_ff_vib_rr2.flac",
           "rootMidi": 90,
           "loKey": 90,
@@ -584,15 +539,6 @@
           "file": "samples/iowa/violin/E7_ff_vib_rr1.flac",
           "rootMidi": 100,
           "loKey": 100,
-          "hiKey": 100,
-          "dynamic": "f",
-          "vib": true,
-          "rr": 1
-        },
-        {
-          "file": "samples/iowa/violin/F7_ff_vib_rr1.flac",
-          "rootMidi": 101,
-          "loKey": 101,
           "hiKey": 101,
           "dynamic": "f",
           "vib": true,
@@ -779,15 +725,6 @@
           "rr": 1
         },
         {
-          "file": "samples/iowa/violin/Gb4_mf_vib_rr2.flac",
-          "rootMidi": 66,
-          "loKey": 66,
-          "hiKey": 66,
-          "dynamic": "mf",
-          "vib": true,
-          "rr": 2
-        },
-        {
           "file": "samples/iowa/violin/G4_mf_vib_rr1.flac",
           "rootMidi": 67,
           "loKey": 67,
@@ -905,15 +842,6 @@
           "rr": 1
         },
         {
-          "file": "samples/iowa/violin/Db5_mf_vib_rr2.flac",
-          "rootMidi": 73,
-          "loKey": 73,
-          "hiKey": 73,
-          "dynamic": "mf",
-          "vib": true,
-          "rr": 2
-        },
-        {
           "file": "samples/iowa/violin/D5_mf_vib_rr1.flac",
           "rootMidi": 74,
           "loKey": 74,
@@ -975,15 +903,6 @@
           "dynamic": "mf",
           "vib": true,
           "rr": 1
-        },
-        {
-          "file": "samples/iowa/violin/F5_mf_vib_rr2.flac",
-          "rootMidi": 77,
-          "loKey": 77,
-          "hiKey": 77,
-          "dynamic": "mf",
-          "vib": true,
-          "rr": 2
         },
         {
           "file": "samples/iowa/violin/Gb5_mf_vib_rr1.flac",
@@ -1049,15 +968,6 @@
           "rr": 1
         },
         {
-          "file": "samples/iowa/violin/A5_mf_vib_rr2.flac",
-          "rootMidi": 81,
-          "loKey": 81,
-          "hiKey": 81,
-          "dynamic": "mf",
-          "vib": true,
-          "rr": 2
-        },
-        {
           "file": "samples/iowa/violin/Bb5_mf_vib_rr1.flac",
           "rootMidi": 82,
           "loKey": 82,
@@ -1074,15 +984,6 @@
           "dynamic": "mf",
           "vib": true,
           "rr": 2
-        },
-        {
-          "file": "samples/iowa/violin/B5_mf_vib_rr1.flac",
-          "rootMidi": 83,
-          "loKey": 83,
-          "hiKey": 83,
-          "dynamic": "mf",
-          "vib": true,
-          "rr": 1
         },
         {
           "file": "samples/iowa/violin/B5_mf_vib_rr2.flac",
@@ -1184,15 +1085,6 @@
           "rr": 1
         },
         {
-          "file": "samples/iowa/violin/G6_mf_vib_rr1.flac",
-          "rootMidi": 91,
-          "loKey": 91,
-          "hiKey": 91,
-          "dynamic": "mf",
-          "vib": true,
-          "rr": 1
-        },
-        {
           "file": "samples/iowa/violin/G6_mf_vib_rr2.flac",
           "rootMidi": 91,
           "loKey": 91,
@@ -1223,15 +1115,6 @@
           "file": "samples/iowa/violin/A6_mf_vib_rr1.flac",
           "rootMidi": 93,
           "loKey": 93,
-          "hiKey": 93,
-          "dynamic": "mf",
-          "vib": true,
-          "rr": 1
-        },
-        {
-          "file": "samples/iowa/violin/Bb6_mf_vib_rr1.flac",
-          "rootMidi": 94,
-          "loKey": 94,
           "hiKey": 94,
           "dynamic": "mf",
           "vib": true,
@@ -1250,15 +1133,6 @@
           "file": "samples/iowa/violin/C7_mf_vib_rr1.flac",
           "rootMidi": 96,
           "loKey": 96,
-          "hiKey": 96,
-          "dynamic": "mf",
-          "vib": true,
-          "rr": 1
-        },
-        {
-          "file": "samples/iowa/violin/Db7_mf_vib_rr1.flac",
-          "rootMidi": 97,
-          "loKey": 97,
           "hiKey": 97,
           "dynamic": "mf",
           "vib": true,
@@ -1268,15 +1142,6 @@
           "file": "samples/iowa/violin/D7_mf_vib_rr1.flac",
           "rootMidi": 98,
           "loKey": 98,
-          "hiKey": 98,
-          "dynamic": "mf",
-          "vib": true,
-          "rr": 1
-        },
-        {
-          "file": "samples/iowa/violin/Eb7_mf_vib_rr1.flac",
-          "rootMidi": 99,
-          "loKey": 99,
           "hiKey": 99,
           "dynamic": "mf",
           "vib": true,
@@ -1951,7 +1816,7 @@
           "file": "samples/iowa/viola/D6_ff_vib_rr1.flac",
           "rootMidi": 86,
           "loKey": 86,
-          "hiKey": 86,
+          "hiKey": 87,
           "dynamic": "f",
           "vib": true,
           "rr": 1
@@ -1960,19 +1825,10 @@
           "file": "samples/iowa/viola/D6_ff_vib_rr2.flac",
           "rootMidi": 86,
           "loKey": 86,
-          "hiKey": 86,
-          "dynamic": "f",
-          "vib": true,
-          "rr": 2
-        },
-        {
-          "file": "samples/iowa/viola/Eb6_ff_vib_rr1.flac",
-          "rootMidi": 87,
-          "loKey": 87,
           "hiKey": 87,
           "dynamic": "f",
           "vib": true,
-          "rr": 1
+          "rr": 2
         },
         {
           "file": "samples/iowa/viola/E6_ff_vib_rr1.flac",
@@ -1987,15 +1843,6 @@
           "file": "samples/iowa/viola/F6_ff_vib_rr1.flac",
           "rootMidi": 89,
           "loKey": 89,
-          "hiKey": 89,
-          "dynamic": "f",
-          "vib": true,
-          "rr": 1
-        },
-        {
-          "file": "samples/iowa/viola/Gb6_ff_vib_rr1.flac",
-          "rootMidi": 90,
-          "loKey": 90,
           "hiKey": 90,
           "dynamic": "f",
           "vib": true,
@@ -3981,15 +3828,6 @@
           "rr": 2
         },
         {
-          "file": "samples/iowa/cello/B4_mf_vib_rr1.flac",
-          "rootMidi": 71,
-          "loKey": 71,
-          "hiKey": 71,
-          "dynamic": "mf",
-          "vib": true,
-          "rr": 1
-        },
-        {
           "file": "samples/iowa/cello/B4_mf_vib_rr2.flac",
           "rootMidi": 71,
           "loKey": 71,
@@ -4042,15 +3880,6 @@
           "dynamic": "mf",
           "vib": true,
           "rr": 1
-        },
-        {
-          "file": "samples/iowa/cello/D5_mf_vib_rr2.flac",
-          "rootMidi": 74,
-          "loKey": 74,
-          "hiKey": 74,
-          "dynamic": "mf",
-          "vib": true,
-          "rr": 2
         },
         {
           "file": "samples/iowa/cello/Eb5_mf_vib_rr1.flac",
@@ -6529,15 +6358,6 @@
           "file": "samples/iowa/oboe/D4_mf_novib_rr1.flac",
           "rootMidi": 62,
           "loKey": 62,
-          "hiKey": 62,
-          "dynamic": "mf",
-          "vib": false,
-          "rr": 1
-        },
-        {
-          "file": "samples/iowa/oboe/Eb4_mf_novib_rr1.flac",
-          "rootMidi": 63,
-          "loKey": 63,
           "hiKey": 63,
           "dynamic": "mf",
           "vib": false,

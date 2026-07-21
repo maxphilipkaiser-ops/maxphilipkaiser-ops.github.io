@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sound Lab — Sample Library A/B Audition</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header id="topbar">
+    <div class="brand">
+      <span class="logo">◐</span>
+      <div>
+        <h1>Sound Lab</h1>
+        <p class="tagline">A/B sample-library audition &mdash; maximum-quality playback &amp; fair comparison</p>
+      </div>
+    </div>
+    <div id="ctx-status" class="ctx-status" title="AudioContext state">audio: idle</div>
+  </header>
+
+  <main id="layout">
+    <!-- LEFT: A/B assignment ------------------------------------------------->
+    <section class="col col-left">
+      <div class="panel">
+        <h2>Candidates</h2>
+
+        <div class="cand-block cand-a">
+          <label class="cand-label"><span class="tag tag-a">A</span> Candidate A</label>
+          <select id="pickA" class="select"></select>
+          <div id="statusA" class="load-status">not loaded</div>
+          <div id="progA" class="progress"><div class="bar"></div></div>
+          <div id="footA" class="foot"></div>
+        </div>
+
+        <div class="cand-block cand-b">
+          <label class="cand-label"><span class="tag tag-b">B</span> Candidate B</label>
+          <select id="pickB" class="select"></select>
+          <div id="statusB" class="load-status">not loaded</div>
+          <div id="progB" class="progress"><div class="bar"></div></div>
+          <div id="footB" class="foot"></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Switch</h2>
+        <label class="check"><input type="checkbox" id="blind" /> Blind mode</label>
+        <div id="abSwitch" class="ab-switch">
+          <button id="btnA" class="ab-btn active" data-slot="A">A</button>
+          <button id="btnB" class="ab-btn" data-slot="B">B</button>
+        </div>
+        <button id="btnReveal" class="reveal" hidden>Reveal</button>
+        <p class="hint">Both sides play in sync; the switch cross-fades in ~10&nbsp;ms with no gap.</p>
+      </div>
+    </section>
+
+    <!-- CENTER: instrument + phrases + piano --------------------------------->
+    <section class="col col-center">
+      <div class="panel">
+        <h2>Instrument</h2>
+        <div id="instruments" class="chip-row"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Phrases</h2>
+        <div id="phrases" class="chip-row"></div>
+        <div class="row transport">
+          <label class="slider-lab">Tempo <span id="tempoVal">96</span> BPM
+            <input type="range" id="tempo" min="40" max="160" value="96" />
+          </label>
+          <label class="check"><input type="checkbox" id="loop" /> Loop</label>
+          <button id="btnStop" class="stop">■ Stop</button>
+        </div>
+      </div>
+
+      <div class="panel piano-panel">
+        <h2>Live Play <span class="sub">click keys &middot; computer keys A/W/S/E/D&hellip; &middot; Z/X octave</span></h2>
+        <div id="piano"></div>
+      </div>
+    </section>
+
+    <!-- RIGHT: performance + FX --------------------------------------------->
+    <section class="col col-right">
+      <div class="panel">
+        <h2>Vibrato</h2>
+        <div id="vibMode" class="seg">
+          <button data-val="off">Off</button>
+          <button data-val="sampled" class="disabled">Sampled</button>
+          <button data-val="synth" class="active">Synth</button>
+        </div>
+        <div id="vibSynth" class="sub-controls">
+          <label class="slider-lab">Rate <span data-out="vibRate">5.5</span> Hz
+            <input type="range" id="vibRate" min="4" max="7" step="0.1" value="5.5" /></label>
+          <label class="slider-lab">Depth <span data-out="vibDepth">22</span> ¢
+            <input type="range" id="vibDepth" min="0" max="50" step="1" value="22" /></label>
+          <label class="slider-lab">Onset <span data-out="vibOnset">0.25</span> s
+            <input type="range" id="vibOnset" min="0" max="1" step="0.05" value="0.25" /></label>
+          <label class="slider-lab">Ramp <span data-out="vibRamp">0.35</span> s
+            <input type="range" id="vibRamp" min="0" max="1" step="0.05" value="0.35" /></label>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Ensemble</h2>
+        <div id="ensMode" class="seg">
+          <button data-val="solo" class="active">Solo</button>
+          <button data-val="section">True Section</button>
+          <button data-val="virtual">Virtual</button>
+        </div>
+        <div id="ensVirtual" class="sub-controls">
+          <label class="slider-lab">Voices <span data-out="ensVoices">4</span>
+            <input type="range" id="ensVoices" min="2" max="8" step="1" value="4" /></label>
+          <label class="slider-lab">Detune ±<span data-out="ensDetune">8</span> ¢
+            <input type="range" id="ensDetune" min="3" max="15" step="1" value="8" /></label>
+          <label class="slider-lab">Width <span data-out="ensWidth">0.6</span>
+            <input type="range" id="ensWidth" min="0" max="1" step="0.05" value="0.6" /></label>
+          <label class="slider-lab">Jitter <span data-out="ensJitter">18</span> ms
+            <input type="range" id="ensJitter" min="0" max="40" step="1" value="18" /></label>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Reverb / FX</h2>
+        <label class="slider-lab">Impulse response
+          <select id="irSelect" class="select"></select></label>
+        <label class="slider-lab">Reverb mix <span data-out="reverbWet">0.22</span>
+          <input type="range" id="reverbWet" min="0" max="1" step="0.01" value="0.22" /></label>
+        <label class="slider-lab">Tilt EQ <span data-out="eqTilt">0</span> dB
+          <input type="range" id="eqTilt" min="-6" max="6" step="0.5" value="0" /></label>
+      </div>
+
+      <div class="panel">
+        <h2>Master</h2>
+        <label class="slider-lab">Volume <span data-out="master">0.9</span>
+          <input type="range" id="master" min="0" max="1" step="0.01" value="0.9" /></label>
+        <label class="check"><input type="checkbox" id="limiter" checked /> Safety limiter</label>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

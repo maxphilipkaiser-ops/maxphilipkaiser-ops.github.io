@@ -1,0 +1,757 @@
+{
+  "id": "current-cdn",
+  "name": "Ear-Training App's Current Sound — CDN (nbrosowsky tonejs-instruments)",
+  "shortName": "Current-CDN",
+  "license": "CC-BY 3.0 (tonejs-instruments sample pack by Nicholaus Brosowsky; samples curated/edited from public-domain sources, per the repo’s sample-source-info.txt)",
+  "sourceUrl": "https://github.com/nbrosowsky/tonejs-instruments",
+  "gainOffsetDb": -3.43,
+  "instruments": {
+    "violin": {
+      "displayName": "Violin",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/current-cdn/violin/A3.mp3",
+          "rootMidi": 57,
+          "loKey": 0,
+          "hiKey": 59,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/violin/C4.mp3",
+          "rootMidi": 60,
+          "loKey": 60,
+          "hiKey": 62,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/violin/E4.mp3",
+          "rootMidi": 64,
+          "loKey": 63,
+          "hiKey": 66,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/violin/G4.mp3",
+          "rootMidi": 67,
+          "loKey": 67,
+          "hiKey": 68,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/violin/A4.mp3",
+          "rootMidi": 69,
+          "loKey": 69,
+          "hiKey": 73,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/violin/E5.mp3",
+          "rootMidi": 76,
+          "loKey": 74,
+          "hiKey": 78,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/violin/G5.mp3",
+          "rootMidi": 79,
+          "loKey": 79,
+          "hiKey": 80,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/violin/A5.mp3",
+          "rootMidi": 81,
+          "loKey": 81,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "viola": {
+      "displayName": "Viola",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": -7,
+      "zones": [
+        {
+          "file": "samples/current-cdn/violin/A3.mp3",
+          "rootMidi": 57,
+          "loKey": 0,
+          "hiKey": 59,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/violin/C4.mp3",
+          "rootMidi": 60,
+          "loKey": 60,
+          "hiKey": 62,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/violin/E4.mp3",
+          "rootMidi": 64,
+          "loKey": 63,
+          "hiKey": 66,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/violin/G4.mp3",
+          "rootMidi": 67,
+          "loKey": 67,
+          "hiKey": 68,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/violin/A4.mp3",
+          "rootMidi": 69,
+          "loKey": 69,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "cello": {
+      "displayName": "Cello",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": -12,
+      "zones": [
+        {
+          "file": "samples/current-cdn/cello/C2.mp3",
+          "rootMidi": 36,
+          "loKey": 0,
+          "hiKey": 38,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/cello/E2.mp3",
+          "rootMidi": 40,
+          "loKey": 39,
+          "hiKey": 42,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/cello/G2.mp3",
+          "rootMidi": 43,
+          "loKey": 43,
+          "hiKey": 44,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/cello/A2.mp3",
+          "rootMidi": 45,
+          "loKey": 45,
+          "hiKey": 47,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/cello/C3.mp3",
+          "rootMidi": 48,
+          "loKey": 48,
+          "hiKey": 50,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/cello/E3.mp3",
+          "rootMidi": 52,
+          "loKey": 51,
+          "hiKey": 54,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/cello/G3.mp3",
+          "rootMidi": 55,
+          "loKey": 55,
+          "hiKey": 56,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/cello/A3.mp3",
+          "rootMidi": 57,
+          "loKey": 57,
+          "hiKey": 62,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/cello/G4.mp3",
+          "rootMidi": 67,
+          "loKey": 63,
+          "hiKey": 68,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/cello/A4.mp3",
+          "rootMidi": 69,
+          "loKey": 69,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "flute": {
+      "displayName": "Flute",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 12,
+      "zones": [
+        {
+          "file": "samples/current-cdn/flute/C4.mp3",
+          "rootMidi": 60,
+          "loKey": 0,
+          "hiKey": 62,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/flute/E4.mp3",
+          "rootMidi": 64,
+          "loKey": 63,
+          "hiKey": 67,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/flute/A4.mp3",
+          "rootMidi": 69,
+          "loKey": 68,
+          "hiKey": 71,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/flute/C5.mp3",
+          "rootMidi": 72,
+          "loKey": 72,
+          "hiKey": 74,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/flute/E5.mp3",
+          "rootMidi": 76,
+          "loKey": 75,
+          "hiKey": 79,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/flute/A5.mp3",
+          "rootMidi": 81,
+          "loKey": 80,
+          "hiKey": 83,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/flute/C6.mp3",
+          "rootMidi": 84,
+          "loKey": 84,
+          "hiKey": 86,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/flute/E6.mp3",
+          "rootMidi": 88,
+          "loKey": 87,
+          "hiKey": 91,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/flute/A6.mp3",
+          "rootMidi": 93,
+          "loKey": 92,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "clarinet": {
+      "displayName": "Clarinet",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/current-cdn/clarinet/D3.mp3",
+          "rootMidi": 50,
+          "loKey": 0,
+          "hiKey": 52,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/F3.mp3",
+          "rootMidi": 53,
+          "loKey": 53,
+          "hiKey": 56,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/As3.mp3",
+          "rootMidi": 58,
+          "loKey": 57,
+          "hiKey": 60,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/D4.mp3",
+          "rootMidi": 62,
+          "loKey": 61,
+          "hiKey": 64,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/F4.mp3",
+          "rootMidi": 65,
+          "loKey": 65,
+          "hiKey": 68,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/As4.mp3",
+          "rootMidi": 70,
+          "loKey": 69,
+          "hiKey": 72,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/D5.mp3",
+          "rootMidi": 74,
+          "loKey": 73,
+          "hiKey": 76,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/F5.mp3",
+          "rootMidi": 77,
+          "loKey": 77,
+          "hiKey": 80,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/As5.mp3",
+          "rootMidi": 82,
+          "loKey": 81,
+          "hiKey": 84,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/D6.mp3",
+          "rootMidi": 86,
+          "loKey": 85,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "oboe": {
+      "displayName": "Oboe",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/current-cdn/clarinet/D3.mp3",
+          "rootMidi": 50,
+          "loKey": 0,
+          "hiKey": 52,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/F3.mp3",
+          "rootMidi": 53,
+          "loKey": 53,
+          "hiKey": 56,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/As3.mp3",
+          "rootMidi": 58,
+          "loKey": 57,
+          "hiKey": 60,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/D4.mp3",
+          "rootMidi": 62,
+          "loKey": 61,
+          "hiKey": 64,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/F4.mp3",
+          "rootMidi": 65,
+          "loKey": 65,
+          "hiKey": 68,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/As4.mp3",
+          "rootMidi": 70,
+          "loKey": 69,
+          "hiKey": 72,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/D5.mp3",
+          "rootMidi": 74,
+          "loKey": 73,
+          "hiKey": 76,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/F5.mp3",
+          "rootMidi": 77,
+          "loKey": 77,
+          "hiKey": 80,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/clarinet/As5.mp3",
+          "rootMidi": 82,
+          "loKey": 81,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "trumpet": {
+      "displayName": "Trumpet",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/current-cdn/trumpet/F3.mp3",
+          "rootMidi": 53,
+          "loKey": 0,
+          "hiKey": 55,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/trumpet/A3.mp3",
+          "rootMidi": 57,
+          "loKey": 56,
+          "hiKey": 59,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/trumpet/C4.mp3",
+          "rootMidi": 60,
+          "loKey": 60,
+          "hiKey": 63,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/trumpet/F4.mp3",
+          "rootMidi": 65,
+          "loKey": 64,
+          "hiKey": 66,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/trumpet/G4.mp3",
+          "rootMidi": 67,
+          "loKey": 67,
+          "hiKey": 72,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/trumpet/F5.mp3",
+          "rootMidi": 77,
+          "loKey": 73,
+          "hiKey": 79,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/trumpet/A5.mp3",
+          "rootMidi": 81,
+          "loKey": 80,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "horn": {
+      "displayName": "Horn",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": -7,
+      "zones": [
+        {
+          "file": "samples/current-cdn/french-horn/A1.mp3",
+          "rootMidi": 33,
+          "loKey": 0,
+          "hiKey": 35,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/french-horn/C2.mp3",
+          "rootMidi": 36,
+          "loKey": 36,
+          "hiKey": 40,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/french-horn/G2.mp3",
+          "rootMidi": 43,
+          "loKey": 41,
+          "hiKey": 47,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/french-horn/D3.mp3",
+          "rootMidi": 50,
+          "loKey": 48,
+          "hiKey": 52,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/french-horn/F3.mp3",
+          "rootMidi": 53,
+          "loKey": 53,
+          "hiKey": 55,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/french-horn/A3.mp3",
+          "rootMidi": 57,
+          "loKey": 56,
+          "hiKey": 59,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/french-horn/C4.mp3",
+          "rootMidi": 60,
+          "loKey": 60,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "piano": {
+      "displayName": "Piano",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/current-cdn/piano/A3.mp3",
+          "rootMidi": 57,
+          "loKey": 0,
+          "hiKey": 59,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/piano/C4.mp3",
+          "rootMidi": 60,
+          "loKey": 60,
+          "hiKey": 62,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/piano/Ds4.mp3",
+          "rootMidi": 63,
+          "loKey": 63,
+          "hiKey": 65,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/piano/Fs4.mp3",
+          "rootMidi": 66,
+          "loKey": 66,
+          "hiKey": 68,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/piano/A4.mp3",
+          "rootMidi": 69,
+          "loKey": 69,
+          "hiKey": 71,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/piano/C5.mp3",
+          "rootMidi": 72,
+          "loKey": 72,
+          "hiKey": 74,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/piano/Ds5.mp3",
+          "rootMidi": 75,
+          "loKey": 75,
+          "hiKey": 77,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/piano/Fs5.mp3",
+          "rootMidi": 78,
+          "loKey": 78,
+          "hiKey": 80,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/piano/A5.mp3",
+          "rootMidi": 81,
+          "loKey": 81,
+          "hiKey": 83,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/current-cdn/piano/C6.mp3",
+          "rootMidi": 84,
+          "loKey": 84,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    }
+  }
+}

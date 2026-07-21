@@ -1,0 +1,62 @@
+{
+  "id": "vsco2ce",
+  "name": "VSCO 2 CE — Solo Strings",
+  "shortName": "VSCO2",
+  "license": "CC0",
+  "sourceUrl": "https://vis.versilstudios.com/vsco-community.html",
+  "gainOffsetDb": 0.0,
+  "instruments": {
+    "violin": {
+      "displayName": "Violin",
+      "kind": "solo",
+      "sampledVibrato": true,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/vsco2ce/violin/A4_mf_vib_rr1.flac",
+          "rootMidi": 69, "loKey": 67, "hiKey": 71,
+          "dynamic": "mf", "vib": true, "rr": 1,
+          "loopStart": 22050, "loopEnd": 96000,
+          "gainDb": 0
+        },
+        {
+          "file": "samples/vsco2ce/violin/A4_mf_vib_rr2.flac",
+          "rootMidi": 69, "loKey": 67, "hiKey": 71,
+          "dynamic": "mf", "vib": true, "rr": 2,
+          "loopStart": 22050, "loopEnd": 95000
+        },
+        {
+          "file": "samples/vsco2ce/violin/A4_mf_novib_rr1.flac",
+          "rootMidi": 69, "loKey": 67, "hiKey": 71,
+          "dynamic": "mf", "vib": false, "rr": 1
+        },
+        {
+          "file": "samples/vsco2ce/violin/A4_f_vib_rr1.flac",
+          "rootMidi": 69, "loKey": 67, "hiKey": 71,
+          "dynamic": "f", "vib": true, "rr": 1,
+          "tuneCents": -7
+        },
+        {
+          "file": "samples/vsco2ce/violin/E5_mf_vib_rr1.flac",
+          "rootMidi": 76, "loKey": 72, "hiKey": 78,
+          "dynamic": "mf", "vib": true, "rr": 1,
+          "tuneCents": 12
+        }
+      ]
+    },
+    "violin-section": {
+      "displayName": "Violin (Section)",
+      "kind": "section",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/vsco2ce/violin-section/A4_mf_rr1.flac",
+          "rootMidi": 69, "loKey": 67, "hiKey": 71,
+          "dynamic": "mf", "vib": false, "rr": 1,
+          "loopStart": 30000, "loopEnd": 110000
+        }
+      ]
+    }
+  }
+}

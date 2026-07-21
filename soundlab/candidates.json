@@ -1,0 +1,15 @@
+{
+  "candidates": [
+    "manifests/vsco2ce.json",
+    "manifests/vpo.json",
+    "manifests/current-hqhd.json",
+    "manifests/current-cdn.json"
+  ],
+  "irs": [
+    { "id": "echothief-conrad-prebys-concert-hall", "name": "Conrad Prebys Concert Hall", "file": "irs/echothief-conrad-prebys-concert-hall.wav" },
+    { "id": "echothief-steinman-hall", "name": "Steinman Hall (CCNY)", "file": "irs/echothief-steinman-hall.wav" },
+    { "id": "echothief-mills-greek-theater", "name": "Mills Greek Theater", "file": "irs/echothief-mills-greek-theater.wav" },
+    { "id": "openair-jack-lyons-concert-hall", "name": "Jack Lyons Concert Hall (York)", "file": "irs/openair-jack-lyons-concert-hall.wav" },
+    { "id": "openair-usina-del-arte-symphony-hall", "name": "Usina del Arte Symphony Hall", "file": "irs/openair-usina-del-arte-symphony-hall.wav" }
+  ]
+}

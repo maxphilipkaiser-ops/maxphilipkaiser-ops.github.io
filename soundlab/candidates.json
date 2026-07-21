@@ -2,6 +2,9 @@
   "candidates": [
     "manifests/vsco2ce.json",
     "manifests/vpo.json",
+    "manifests/iowa.json",
+    "manifests/salamander.json",
+    "manifests/sgm.json",
     "manifests/current-hqhd.json",
     "manifests/current-cdn.json"
   ],

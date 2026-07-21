@@ -1,0 +1,829 @@
+{
+  "id": "salamander",
+  "name": "Salamander Grand Piano V3",
+  "shortName": "Salamander",
+  "license": "CC-BY 3.0 (attribution required — Salamander Grand Piano V3 by Alexander Holm)",
+  "sourceUrl": "https://archive.org/details/SalamanderGrandPianoV3",
+  "gainOffsetDb": 11.03,
+  "instruments": {
+    "piano": {
+      "displayName": "Grand Piano",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/salamander/piano/A0_p_rr1.flac",
+          "rootMidi": 21,
+          "loKey": 21,
+          "hiKey": 22,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A0_mf_rr1.flac",
+          "rootMidi": 21,
+          "loKey": 21,
+          "hiKey": 22,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A0_f_rr1.flac",
+          "rootMidi": 21,
+          "loKey": 21,
+          "hiKey": 22,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C1_p_rr1.flac",
+          "rootMidi": 24,
+          "loKey": 23,
+          "hiKey": 25,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C1_mf_rr1.flac",
+          "rootMidi": 24,
+          "loKey": 23,
+          "hiKey": 25,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C1_f_rr1.flac",
+          "rootMidi": 24,
+          "loKey": 23,
+          "hiKey": 25,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#1_p_rr1.flac",
+          "rootMidi": 27,
+          "loKey": 26,
+          "hiKey": 28,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#1_mf_rr1.flac",
+          "rootMidi": 27,
+          "loKey": 26,
+          "hiKey": 28,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#1_f_rr1.flac",
+          "rootMidi": 27,
+          "loKey": 26,
+          "hiKey": 28,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#1_p_rr1.flac",
+          "rootMidi": 30,
+          "loKey": 29,
+          "hiKey": 31,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#1_mf_rr1.flac",
+          "rootMidi": 30,
+          "loKey": 29,
+          "hiKey": 31,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#1_f_rr1.flac",
+          "rootMidi": 30,
+          "loKey": 29,
+          "hiKey": 31,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A1_p_rr1.flac",
+          "rootMidi": 33,
+          "loKey": 32,
+          "hiKey": 34,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A1_mf_rr1.flac",
+          "rootMidi": 33,
+          "loKey": 32,
+          "hiKey": 34,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A1_f_rr1.flac",
+          "rootMidi": 33,
+          "loKey": 32,
+          "hiKey": 34,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C2_p_rr1.flac",
+          "rootMidi": 36,
+          "loKey": 35,
+          "hiKey": 37,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C2_mf_rr1.flac",
+          "rootMidi": 36,
+          "loKey": 35,
+          "hiKey": 37,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C2_f_rr1.flac",
+          "rootMidi": 36,
+          "loKey": 35,
+          "hiKey": 37,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#2_p_rr1.flac",
+          "rootMidi": 39,
+          "loKey": 38,
+          "hiKey": 40,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#2_mf_rr1.flac",
+          "rootMidi": 39,
+          "loKey": 38,
+          "hiKey": 40,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#2_f_rr1.flac",
+          "rootMidi": 39,
+          "loKey": 38,
+          "hiKey": 40,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#2_p_rr1.flac",
+          "rootMidi": 42,
+          "loKey": 41,
+          "hiKey": 43,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#2_mf_rr1.flac",
+          "rootMidi": 42,
+          "loKey": 41,
+          "hiKey": 43,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#2_f_rr1.flac",
+          "rootMidi": 42,
+          "loKey": 41,
+          "hiKey": 43,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A2_p_rr1.flac",
+          "rootMidi": 45,
+          "loKey": 44,
+          "hiKey": 46,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A2_mf_rr1.flac",
+          "rootMidi": 45,
+          "loKey": 44,
+          "hiKey": 46,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A2_f_rr1.flac",
+          "rootMidi": 45,
+          "loKey": 44,
+          "hiKey": 46,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C3_p_rr1.flac",
+          "rootMidi": 48,
+          "loKey": 47,
+          "hiKey": 49,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C3_mf_rr1.flac",
+          "rootMidi": 48,
+          "loKey": 47,
+          "hiKey": 49,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C3_f_rr1.flac",
+          "rootMidi": 48,
+          "loKey": 47,
+          "hiKey": 49,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#3_p_rr1.flac",
+          "rootMidi": 51,
+          "loKey": 50,
+          "hiKey": 52,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#3_mf_rr1.flac",
+          "rootMidi": 51,
+          "loKey": 50,
+          "hiKey": 52,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#3_f_rr1.flac",
+          "rootMidi": 51,
+          "loKey": 50,
+          "hiKey": 52,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#3_p_rr1.flac",
+          "rootMidi": 54,
+          "loKey": 53,
+          "hiKey": 55,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#3_mf_rr1.flac",
+          "rootMidi": 54,
+          "loKey": 53,
+          "hiKey": 55,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#3_f_rr1.flac",
+          "rootMidi": 54,
+          "loKey": 53,
+          "hiKey": 55,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A3_p_rr1.flac",
+          "rootMidi": 57,
+          "loKey": 56,
+          "hiKey": 58,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A3_mf_rr1.flac",
+          "rootMidi": 57,
+          "loKey": 56,
+          "hiKey": 58,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A3_f_rr1.flac",
+          "rootMidi": 57,
+          "loKey": 56,
+          "hiKey": 58,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C4_p_rr1.flac",
+          "rootMidi": 60,
+          "loKey": 59,
+          "hiKey": 61,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C4_mf_rr1.flac",
+          "rootMidi": 60,
+          "loKey": 59,
+          "hiKey": 61,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C4_f_rr1.flac",
+          "rootMidi": 60,
+          "loKey": 59,
+          "hiKey": 61,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#4_p_rr1.flac",
+          "rootMidi": 63,
+          "loKey": 62,
+          "hiKey": 64,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#4_mf_rr1.flac",
+          "rootMidi": 63,
+          "loKey": 62,
+          "hiKey": 64,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#4_f_rr1.flac",
+          "rootMidi": 63,
+          "loKey": 62,
+          "hiKey": 64,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#4_p_rr1.flac",
+          "rootMidi": 66,
+          "loKey": 65,
+          "hiKey": 67,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#4_mf_rr1.flac",
+          "rootMidi": 66,
+          "loKey": 65,
+          "hiKey": 67,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#4_f_rr1.flac",
+          "rootMidi": 66,
+          "loKey": 65,
+          "hiKey": 67,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A4_p_rr1.flac",
+          "rootMidi": 69,
+          "loKey": 68,
+          "hiKey": 70,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A4_mf_rr1.flac",
+          "rootMidi": 69,
+          "loKey": 68,
+          "hiKey": 70,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A4_f_rr1.flac",
+          "rootMidi": 69,
+          "loKey": 68,
+          "hiKey": 70,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C5_p_rr1.flac",
+          "rootMidi": 72,
+          "loKey": 71,
+          "hiKey": 73,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C5_mf_rr1.flac",
+          "rootMidi": 72,
+          "loKey": 71,
+          "hiKey": 73,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C5_f_rr1.flac",
+          "rootMidi": 72,
+          "loKey": 71,
+          "hiKey": 73,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#5_p_rr1.flac",
+          "rootMidi": 75,
+          "loKey": 74,
+          "hiKey": 76,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#5_mf_rr1.flac",
+          "rootMidi": 75,
+          "loKey": 74,
+          "hiKey": 76,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#5_f_rr1.flac",
+          "rootMidi": 75,
+          "loKey": 74,
+          "hiKey": 76,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#5_p_rr1.flac",
+          "rootMidi": 78,
+          "loKey": 77,
+          "hiKey": 79,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#5_mf_rr1.flac",
+          "rootMidi": 78,
+          "loKey": 77,
+          "hiKey": 79,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#5_f_rr1.flac",
+          "rootMidi": 78,
+          "loKey": 77,
+          "hiKey": 79,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A5_p_rr1.flac",
+          "rootMidi": 81,
+          "loKey": 80,
+          "hiKey": 82,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A5_mf_rr1.flac",
+          "rootMidi": 81,
+          "loKey": 80,
+          "hiKey": 82,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A5_f_rr1.flac",
+          "rootMidi": 81,
+          "loKey": 80,
+          "hiKey": 82,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C6_p_rr1.flac",
+          "rootMidi": 84,
+          "loKey": 83,
+          "hiKey": 85,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C6_mf_rr1.flac",
+          "rootMidi": 84,
+          "loKey": 83,
+          "hiKey": 85,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C6_f_rr1.flac",
+          "rootMidi": 84,
+          "loKey": 83,
+          "hiKey": 85,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#6_p_rr1.flac",
+          "rootMidi": 87,
+          "loKey": 86,
+          "hiKey": 88,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#6_mf_rr1.flac",
+          "rootMidi": 87,
+          "loKey": 86,
+          "hiKey": 88,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#6_f_rr1.flac",
+          "rootMidi": 87,
+          "loKey": 86,
+          "hiKey": 88,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#6_p_rr1.flac",
+          "rootMidi": 90,
+          "loKey": 89,
+          "hiKey": 91,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#6_mf_rr1.flac",
+          "rootMidi": 90,
+          "loKey": 89,
+          "hiKey": 91,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#6_f_rr1.flac",
+          "rootMidi": 90,
+          "loKey": 89,
+          "hiKey": 91,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A6_p_rr1.flac",
+          "rootMidi": 93,
+          "loKey": 92,
+          "hiKey": 94,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A6_mf_rr1.flac",
+          "rootMidi": 93,
+          "loKey": 92,
+          "hiKey": 94,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A6_f_rr1.flac",
+          "rootMidi": 93,
+          "loKey": 92,
+          "hiKey": 94,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C7_p_rr1.flac",
+          "rootMidi": 96,
+          "loKey": 95,
+          "hiKey": 97,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C7_mf_rr1.flac",
+          "rootMidi": 96,
+          "loKey": 95,
+          "hiKey": 97,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C7_f_rr1.flac",
+          "rootMidi": 96,
+          "loKey": 95,
+          "hiKey": 97,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#7_p_rr1.flac",
+          "rootMidi": 99,
+          "loKey": 98,
+          "hiKey": 100,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#7_mf_rr1.flac",
+          "rootMidi": 99,
+          "loKey": 98,
+          "hiKey": 100,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/D#7_f_rr1.flac",
+          "rootMidi": 99,
+          "loKey": 98,
+          "hiKey": 100,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#7_p_rr1.flac",
+          "rootMidi": 102,
+          "loKey": 101,
+          "hiKey": 103,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#7_mf_rr1.flac",
+          "rootMidi": 102,
+          "loKey": 101,
+          "hiKey": 103,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/F#7_f_rr1.flac",
+          "rootMidi": 102,
+          "loKey": 101,
+          "hiKey": 103,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A7_p_rr1.flac",
+          "rootMidi": 105,
+          "loKey": 104,
+          "hiKey": 106,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A7_mf_rr1.flac",
+          "rootMidi": 105,
+          "loKey": 104,
+          "hiKey": 106,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/A7_f_rr1.flac",
+          "rootMidi": 105,
+          "loKey": 104,
+          "hiKey": 106,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C8_p_rr1.flac",
+          "rootMidi": 108,
+          "loKey": 107,
+          "hiKey": 108,
+          "dynamic": "p",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C8_mf_rr1.flac",
+          "rootMidi": 108,
+          "loKey": 107,
+          "hiKey": 108,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/salamander/piano/C8_f_rr1.flac",
+          "rootMidi": 108,
+          "loKey": 107,
+          "hiKey": 108,
+          "dynamic": "f",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    }
+  },
+  "notes": "Loudness: ffmpeg ebur128 integrated LUFS measured on 10 representative mf middle-register full-length samples (A3,C4,D#4,F#4,A4,C5,D#5,F#5,A5,C6): -29.3,-26.6,-29.7,-27.9,-27.1,-28.5,-31.3,-28.3,-32.5,-29.1 LUFS -> mean -29.03 LUFS. gainOffsetDb = -18 - meanLUFS = +11.03 dB (within +/-12 clamp). Curated from Salamander Grand Piano V3 48kHz/24-bit (16-velocity-layer source, sampled every minor 3rd A0-C8) down to 3 velocity layers (v4->p, v9->mf, v14->f) transcoded to 24-bit/48kHz FLAC; leading silence trimmed to <=10ms (ffmpeg silenceremove, start_threshold=-45dB peak), natural decay kept uncapped up to 12s (atrim), release-trigger/pedal-noise/string-resonance samples (rel*, pedal*, harm*) skipped as the site has no release-layer mechanism, no loop points (one-shot decay per README piano guidance). Pitch-verified: A4 samples measure 440.4 Hz (+1.4 cents), A2 samples measure 110.1 Hz (+1.4 cents) vs equal-temperament targets via autocorrelation, both within Salamander’s natural piano stretch-tuning tolerance."
+}

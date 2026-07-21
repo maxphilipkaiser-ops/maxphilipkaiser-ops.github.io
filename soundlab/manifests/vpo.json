@@ -4,7 +4,7 @@
   "shortName": "VPO",
   "license": "Composite (CC Sampling Plus 1.0 / CC-BY-SA 3.0 & 4.0 / CC0, per source sample) — attribution + share-alike required; GPL-3.0 repo wrapper",
   "sourceUrl": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3",
-  "gainOffsetDb": -6.17,
+  "gainOffsetDb": 0,
   "instruments": {
     "violin": {
       "displayName": "Violin",
@@ -3184,6 +3184,5 @@
         }
       ]
     }
-  },
-  "notes": "Loudness: ffmpeg ebur128 (I:) measured across 11 representative mf/middle-register zones (one per instrument: violin, violin-section, viola, viola-section, cello, cello-section, flute, oboe, clarinet, trumpet, horn) -> mean integrated loudness -11.83 LUFS. gainOffsetDb = clamp(-18 - meanLUFS, ±12) = -6.17 dB. Per-zone loop points parsed from each source WAV's 'smpl' RIFF chunk (VPO's plain -sustain.sfz patches carry no loop_start/loop_end SFZ opcodes; loop metadata lives in the WAV itself, inherited as the SFZ default loop range) — 258/258 zones (100%) carry loop points. Source WAVs are 44.1kHz/16-bit throughout; all were bit-exact FLAC-encoded with no resampling, so loop frame offsets are copied unchanged from the source smpl chunk. Per-region SFZ 'tune=' opcodes (cents-level pitch corrections) are carried across verbatim as 'tuneCents' (same sign convention: tune=+N -> tuneCents:+N) — present on violin/violin-section/cello/cello-section/oboe/horn (up to ±35 cents), absent (0/omitted) on viola/viola-section/flute/clarinet/trumpet, whose chosen sustain SFZs carry no tune= opcode at all. Per-region 'offset' (attack-transient start-trim, seen on some clarinet/viola-section regions) not applied — affects only the first fraction of a second of attack, not the sustain loop. Round-robin (rr) was inferred only where multiple regions legitimately collide on the same (rootMidi, dynamic) key (viola-section MIDI 59/69/72, where Mattias-Westlund and VSCO2-CE-sourced VPO samples both map to the same note) -- VPO's sustain patches carry no seq_position opcodes otherwise (rr=1 everywhere else)."
+  }
 }

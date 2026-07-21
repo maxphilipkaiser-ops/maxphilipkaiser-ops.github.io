@@ -1,0 +1,2170 @@
+{
+  "id": "sgm",
+  "name": "SGM-V2.01 (General MIDI, mid-tier reference)",
+  "shortName": "SGM GM",
+  "license": "CC-BY 4.0",
+  "sourceUrl": "https://archive.org/details/SGM-V2.01",
+  "gainOffsetDb": 12,
+  "notes": "gainOffsetDb derived from ffmpeg ebur128 integrated-loudness measurement across 10 mf middle-register samples (violin A4, viola D4, cello C3, flute C5, oboe C5, clarinet C4, trumpet C4, horn F3, piano Cs4, violin-section A4): mean = -36.71 LUFS. Target -18 LUFS => raw offset +18.71 dB, clamped to the +/-12 dB range => +12.0 dB. Samples rendered dry (fluidsynth reverb+chorus disabled) from the SGM-V2.01.sf2 GM soundfont via fluidsynth 2.5.6 fast-render, velocity 96 (mf), 48kHz/16-bit stereo, one note per invocation, every 2 semitones per instrument practical range, no loop points (natural decay/release tail kept, leading silence trimmed to ~10ms).",
+  "instruments": {
+    "violin": {
+      "displayName": "Violin",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/sgm/violin/G3_mf.flac",
+          "rootMidi": 55,
+          "loKey": 0,
+          "hiKey": 56,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/A3_mf.flac",
+          "rootMidi": 57,
+          "loKey": 57,
+          "hiKey": 58,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/B3_mf.flac",
+          "rootMidi": 59,
+          "loKey": 59,
+          "hiKey": 60,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/Cs4_mf.flac",
+          "rootMidi": 61,
+          "loKey": 61,
+          "hiKey": 62,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/Ds4_mf.flac",
+          "rootMidi": 63,
+          "loKey": 63,
+          "hiKey": 64,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/F4_mf.flac",
+          "rootMidi": 65,
+          "loKey": 65,
+          "hiKey": 66,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/G4_mf.flac",
+          "rootMidi": 67,
+          "loKey": 67,
+          "hiKey": 68,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/A4_mf.flac",
+          "rootMidi": 69,
+          "loKey": 69,
+          "hiKey": 70,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/B4_mf.flac",
+          "rootMidi": 71,
+          "loKey": 71,
+          "hiKey": 72,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/Cs5_mf.flac",
+          "rootMidi": 73,
+          "loKey": 73,
+          "hiKey": 74,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/Ds5_mf.flac",
+          "rootMidi": 75,
+          "loKey": 75,
+          "hiKey": 76,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/F5_mf.flac",
+          "rootMidi": 77,
+          "loKey": 77,
+          "hiKey": 78,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/G5_mf.flac",
+          "rootMidi": 79,
+          "loKey": 79,
+          "hiKey": 80,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/A5_mf.flac",
+          "rootMidi": 81,
+          "loKey": 81,
+          "hiKey": 82,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/B5_mf.flac",
+          "rootMidi": 83,
+          "loKey": 83,
+          "hiKey": 84,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/Cs6_mf.flac",
+          "rootMidi": 85,
+          "loKey": 85,
+          "hiKey": 86,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/Ds6_mf.flac",
+          "rootMidi": 87,
+          "loKey": 87,
+          "hiKey": 88,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/F6_mf.flac",
+          "rootMidi": 89,
+          "loKey": 89,
+          "hiKey": 90,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/G6_mf.flac",
+          "rootMidi": 91,
+          "loKey": 91,
+          "hiKey": 92,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/A6_mf.flac",
+          "rootMidi": 93,
+          "loKey": 93,
+          "hiKey": 94,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/B6_mf.flac",
+          "rootMidi": 95,
+          "loKey": 95,
+          "hiKey": 96,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/Cs7_mf.flac",
+          "rootMidi": 97,
+          "loKey": 97,
+          "hiKey": 98,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin/Ds7_mf.flac",
+          "rootMidi": 99,
+          "loKey": 99,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "viola": {
+      "displayName": "Viola",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": -7,
+      "zones": [
+        {
+          "file": "samples/sgm/viola/C3_mf.flac",
+          "rootMidi": 48,
+          "loKey": 0,
+          "hiKey": 49,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/D3_mf.flac",
+          "rootMidi": 50,
+          "loKey": 50,
+          "hiKey": 51,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/E3_mf.flac",
+          "rootMidi": 52,
+          "loKey": 52,
+          "hiKey": 53,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/Fs3_mf.flac",
+          "rootMidi": 54,
+          "loKey": 54,
+          "hiKey": 55,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/Gs3_mf.flac",
+          "rootMidi": 56,
+          "loKey": 56,
+          "hiKey": 57,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/As3_mf.flac",
+          "rootMidi": 58,
+          "loKey": 58,
+          "hiKey": 59,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/C4_mf.flac",
+          "rootMidi": 60,
+          "loKey": 60,
+          "hiKey": 61,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/D4_mf.flac",
+          "rootMidi": 62,
+          "loKey": 62,
+          "hiKey": 63,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/E4_mf.flac",
+          "rootMidi": 64,
+          "loKey": 64,
+          "hiKey": 65,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/Fs4_mf.flac",
+          "rootMidi": 66,
+          "loKey": 66,
+          "hiKey": 67,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/Gs4_mf.flac",
+          "rootMidi": 68,
+          "loKey": 68,
+          "hiKey": 69,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/As4_mf.flac",
+          "rootMidi": 70,
+          "loKey": 70,
+          "hiKey": 71,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/C5_mf.flac",
+          "rootMidi": 72,
+          "loKey": 72,
+          "hiKey": 73,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/D5_mf.flac",
+          "rootMidi": 74,
+          "loKey": 74,
+          "hiKey": 75,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/E5_mf.flac",
+          "rootMidi": 76,
+          "loKey": 76,
+          "hiKey": 77,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/Fs5_mf.flac",
+          "rootMidi": 78,
+          "loKey": 78,
+          "hiKey": 79,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/Gs5_mf.flac",
+          "rootMidi": 80,
+          "loKey": 80,
+          "hiKey": 81,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/As5_mf.flac",
+          "rootMidi": 82,
+          "loKey": 82,
+          "hiKey": 83,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/C6_mf.flac",
+          "rootMidi": 84,
+          "loKey": 84,
+          "hiKey": 85,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/D6_mf.flac",
+          "rootMidi": 86,
+          "loKey": 86,
+          "hiKey": 87,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/viola/E6_mf.flac",
+          "rootMidi": 88,
+          "loKey": 88,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "cello": {
+      "displayName": "Cello",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": -12,
+      "zones": [
+        {
+          "file": "samples/sgm/cello/C2_mf.flac",
+          "rootMidi": 36,
+          "loKey": 0,
+          "hiKey": 37,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/D2_mf.flac",
+          "rootMidi": 38,
+          "loKey": 38,
+          "hiKey": 39,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/E2_mf.flac",
+          "rootMidi": 40,
+          "loKey": 40,
+          "hiKey": 41,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/Fs2_mf.flac",
+          "rootMidi": 42,
+          "loKey": 42,
+          "hiKey": 43,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/Gs2_mf.flac",
+          "rootMidi": 44,
+          "loKey": 44,
+          "hiKey": 45,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/As2_mf.flac",
+          "rootMidi": 46,
+          "loKey": 46,
+          "hiKey": 47,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/C3_mf.flac",
+          "rootMidi": 48,
+          "loKey": 48,
+          "hiKey": 49,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/D3_mf.flac",
+          "rootMidi": 50,
+          "loKey": 50,
+          "hiKey": 51,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/E3_mf.flac",
+          "rootMidi": 52,
+          "loKey": 52,
+          "hiKey": 53,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/Fs3_mf.flac",
+          "rootMidi": 54,
+          "loKey": 54,
+          "hiKey": 55,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/Gs3_mf.flac",
+          "rootMidi": 56,
+          "loKey": 56,
+          "hiKey": 57,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/As3_mf.flac",
+          "rootMidi": 58,
+          "loKey": 58,
+          "hiKey": 59,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/C4_mf.flac",
+          "rootMidi": 60,
+          "loKey": 60,
+          "hiKey": 61,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/D4_mf.flac",
+          "rootMidi": 62,
+          "loKey": 62,
+          "hiKey": 63,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/E4_mf.flac",
+          "rootMidi": 64,
+          "loKey": 64,
+          "hiKey": 65,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/Fs4_mf.flac",
+          "rootMidi": 66,
+          "loKey": 66,
+          "hiKey": 67,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/Gs4_mf.flac",
+          "rootMidi": 68,
+          "loKey": 68,
+          "hiKey": 69,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/As4_mf.flac",
+          "rootMidi": 70,
+          "loKey": 70,
+          "hiKey": 71,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/C5_mf.flac",
+          "rootMidi": 72,
+          "loKey": 72,
+          "hiKey": 73,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/D5_mf.flac",
+          "rootMidi": 74,
+          "loKey": 74,
+          "hiKey": 75,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/E5_mf.flac",
+          "rootMidi": 76,
+          "loKey": 76,
+          "hiKey": 77,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/Fs5_mf.flac",
+          "rootMidi": 78,
+          "loKey": 78,
+          "hiKey": 79,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/cello/Gs5_mf.flac",
+          "rootMidi": 80,
+          "loKey": 80,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "flute": {
+      "displayName": "Flute",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 12,
+      "zones": [
+        {
+          "file": "samples/sgm/flute/C4_mf.flac",
+          "rootMidi": 60,
+          "loKey": 0,
+          "hiKey": 61,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/D4_mf.flac",
+          "rootMidi": 62,
+          "loKey": 62,
+          "hiKey": 63,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/E4_mf.flac",
+          "rootMidi": 64,
+          "loKey": 64,
+          "hiKey": 65,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/Fs4_mf.flac",
+          "rootMidi": 66,
+          "loKey": 66,
+          "hiKey": 67,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/Gs4_mf.flac",
+          "rootMidi": 68,
+          "loKey": 68,
+          "hiKey": 69,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/As4_mf.flac",
+          "rootMidi": 70,
+          "loKey": 70,
+          "hiKey": 71,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/C5_mf.flac",
+          "rootMidi": 72,
+          "loKey": 72,
+          "hiKey": 73,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/D5_mf.flac",
+          "rootMidi": 74,
+          "loKey": 74,
+          "hiKey": 75,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/E5_mf.flac",
+          "rootMidi": 76,
+          "loKey": 76,
+          "hiKey": 77,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/Fs5_mf.flac",
+          "rootMidi": 78,
+          "loKey": 78,
+          "hiKey": 79,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/Gs5_mf.flac",
+          "rootMidi": 80,
+          "loKey": 80,
+          "hiKey": 81,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/As5_mf.flac",
+          "rootMidi": 82,
+          "loKey": 82,
+          "hiKey": 83,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/C6_mf.flac",
+          "rootMidi": 84,
+          "loKey": 84,
+          "hiKey": 85,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/D6_mf.flac",
+          "rootMidi": 86,
+          "loKey": 86,
+          "hiKey": 87,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/E6_mf.flac",
+          "rootMidi": 88,
+          "loKey": 88,
+          "hiKey": 89,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/Fs6_mf.flac",
+          "rootMidi": 90,
+          "loKey": 90,
+          "hiKey": 91,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/Gs6_mf.flac",
+          "rootMidi": 92,
+          "loKey": 92,
+          "hiKey": 93,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/As6_mf.flac",
+          "rootMidi": 94,
+          "loKey": 94,
+          "hiKey": 95,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/flute/C7_mf.flac",
+          "rootMidi": 96,
+          "loKey": 96,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "oboe": {
+      "displayName": "Oboe",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/sgm/oboe/As3_mf.flac",
+          "rootMidi": 58,
+          "loKey": 0,
+          "hiKey": 59,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/C4_mf.flac",
+          "rootMidi": 60,
+          "loKey": 60,
+          "hiKey": 61,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/D4_mf.flac",
+          "rootMidi": 62,
+          "loKey": 62,
+          "hiKey": 63,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/E4_mf.flac",
+          "rootMidi": 64,
+          "loKey": 64,
+          "hiKey": 65,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/Fs4_mf.flac",
+          "rootMidi": 66,
+          "loKey": 66,
+          "hiKey": 67,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/Gs4_mf.flac",
+          "rootMidi": 68,
+          "loKey": 68,
+          "hiKey": 69,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/As4_mf.flac",
+          "rootMidi": 70,
+          "loKey": 70,
+          "hiKey": 71,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/C5_mf.flac",
+          "rootMidi": 72,
+          "loKey": 72,
+          "hiKey": 73,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/D5_mf.flac",
+          "rootMidi": 74,
+          "loKey": 74,
+          "hiKey": 75,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/E5_mf.flac",
+          "rootMidi": 76,
+          "loKey": 76,
+          "hiKey": 77,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/Fs5_mf.flac",
+          "rootMidi": 78,
+          "loKey": 78,
+          "hiKey": 79,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/Gs5_mf.flac",
+          "rootMidi": 80,
+          "loKey": 80,
+          "hiKey": 81,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/As5_mf.flac",
+          "rootMidi": 82,
+          "loKey": 82,
+          "hiKey": 83,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/C6_mf.flac",
+          "rootMidi": 84,
+          "loKey": 84,
+          "hiKey": 85,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/D6_mf.flac",
+          "rootMidi": 86,
+          "loKey": 86,
+          "hiKey": 87,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/E6_mf.flac",
+          "rootMidi": 88,
+          "loKey": 88,
+          "hiKey": 89,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/Fs6_mf.flac",
+          "rootMidi": 90,
+          "loKey": 90,
+          "hiKey": 91,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/oboe/Gs6_mf.flac",
+          "rootMidi": 92,
+          "loKey": 92,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "clarinet": {
+      "displayName": "Clarinet",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/sgm/clarinet/D3_mf.flac",
+          "rootMidi": 50,
+          "loKey": 0,
+          "hiKey": 51,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/E3_mf.flac",
+          "rootMidi": 52,
+          "loKey": 52,
+          "hiKey": 53,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/Fs3_mf.flac",
+          "rootMidi": 54,
+          "loKey": 54,
+          "hiKey": 55,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/Gs3_mf.flac",
+          "rootMidi": 56,
+          "loKey": 56,
+          "hiKey": 57,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/As3_mf.flac",
+          "rootMidi": 58,
+          "loKey": 58,
+          "hiKey": 59,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/C4_mf.flac",
+          "rootMidi": 60,
+          "loKey": 60,
+          "hiKey": 61,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/D4_mf.flac",
+          "rootMidi": 62,
+          "loKey": 62,
+          "hiKey": 63,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/E4_mf.flac",
+          "rootMidi": 64,
+          "loKey": 64,
+          "hiKey": 65,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/Fs4_mf.flac",
+          "rootMidi": 66,
+          "loKey": 66,
+          "hiKey": 67,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/Gs4_mf.flac",
+          "rootMidi": 68,
+          "loKey": 68,
+          "hiKey": 69,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/As4_mf.flac",
+          "rootMidi": 70,
+          "loKey": 70,
+          "hiKey": 71,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/C5_mf.flac",
+          "rootMidi": 72,
+          "loKey": 72,
+          "hiKey": 73,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/D5_mf.flac",
+          "rootMidi": 74,
+          "loKey": 74,
+          "hiKey": 75,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/E5_mf.flac",
+          "rootMidi": 76,
+          "loKey": 76,
+          "hiKey": 77,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/Fs5_mf.flac",
+          "rootMidi": 78,
+          "loKey": 78,
+          "hiKey": 79,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/Gs5_mf.flac",
+          "rootMidi": 80,
+          "loKey": 80,
+          "hiKey": 81,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/As5_mf.flac",
+          "rootMidi": 82,
+          "loKey": 82,
+          "hiKey": 83,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/C6_mf.flac",
+          "rootMidi": 84,
+          "loKey": 84,
+          "hiKey": 85,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/D6_mf.flac",
+          "rootMidi": 86,
+          "loKey": 86,
+          "hiKey": 87,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/E6_mf.flac",
+          "rootMidi": 88,
+          "loKey": 88,
+          "hiKey": 89,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/clarinet/Fs6_mf.flac",
+          "rootMidi": 90,
+          "loKey": 90,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "trumpet": {
+      "displayName": "Trumpet",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/sgm/trumpet/Fs3_mf.flac",
+          "rootMidi": 54,
+          "loKey": 0,
+          "hiKey": 55,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/Gs3_mf.flac",
+          "rootMidi": 56,
+          "loKey": 56,
+          "hiKey": 57,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/As3_mf.flac",
+          "rootMidi": 58,
+          "loKey": 58,
+          "hiKey": 59,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/C4_mf.flac",
+          "rootMidi": 60,
+          "loKey": 60,
+          "hiKey": 61,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/D4_mf.flac",
+          "rootMidi": 62,
+          "loKey": 62,
+          "hiKey": 63,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/E4_mf.flac",
+          "rootMidi": 64,
+          "loKey": 64,
+          "hiKey": 65,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/Fs4_mf.flac",
+          "rootMidi": 66,
+          "loKey": 66,
+          "hiKey": 67,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/Gs4_mf.flac",
+          "rootMidi": 68,
+          "loKey": 68,
+          "hiKey": 69,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/As4_mf.flac",
+          "rootMidi": 70,
+          "loKey": 70,
+          "hiKey": 71,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/C5_mf.flac",
+          "rootMidi": 72,
+          "loKey": 72,
+          "hiKey": 73,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/D5_mf.flac",
+          "rootMidi": 74,
+          "loKey": 74,
+          "hiKey": 75,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/E5_mf.flac",
+          "rootMidi": 76,
+          "loKey": 76,
+          "hiKey": 77,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/Fs5_mf.flac",
+          "rootMidi": 78,
+          "loKey": 78,
+          "hiKey": 79,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/Gs5_mf.flac",
+          "rootMidi": 80,
+          "loKey": 80,
+          "hiKey": 81,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/As5_mf.flac",
+          "rootMidi": 82,
+          "loKey": 82,
+          "hiKey": 83,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/C6_mf.flac",
+          "rootMidi": 84,
+          "loKey": 84,
+          "hiKey": 85,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/trumpet/D6_mf.flac",
+          "rootMidi": 86,
+          "loKey": 86,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "horn": {
+      "displayName": "Horn",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": -7,
+      "zones": [
+        {
+          "file": "samples/sgm/horn/F2_mf.flac",
+          "rootMidi": 41,
+          "loKey": 0,
+          "hiKey": 42,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/G2_mf.flac",
+          "rootMidi": 43,
+          "loKey": 43,
+          "hiKey": 44,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/A2_mf.flac",
+          "rootMidi": 45,
+          "loKey": 45,
+          "hiKey": 46,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/B2_mf.flac",
+          "rootMidi": 47,
+          "loKey": 47,
+          "hiKey": 48,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/Cs3_mf.flac",
+          "rootMidi": 49,
+          "loKey": 49,
+          "hiKey": 50,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/Ds3_mf.flac",
+          "rootMidi": 51,
+          "loKey": 51,
+          "hiKey": 52,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/F3_mf.flac",
+          "rootMidi": 53,
+          "loKey": 53,
+          "hiKey": 54,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/G3_mf.flac",
+          "rootMidi": 55,
+          "loKey": 55,
+          "hiKey": 56,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/A3_mf.flac",
+          "rootMidi": 57,
+          "loKey": 57,
+          "hiKey": 58,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/B3_mf.flac",
+          "rootMidi": 59,
+          "loKey": 59,
+          "hiKey": 60,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/Cs4_mf.flac",
+          "rootMidi": 61,
+          "loKey": 61,
+          "hiKey": 62,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/Ds4_mf.flac",
+          "rootMidi": 63,
+          "loKey": 63,
+          "hiKey": 64,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/F4_mf.flac",
+          "rootMidi": 65,
+          "loKey": 65,
+          "hiKey": 66,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/G4_mf.flac",
+          "rootMidi": 67,
+          "loKey": 67,
+          "hiKey": 68,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/A4_mf.flac",
+          "rootMidi": 69,
+          "loKey": 69,
+          "hiKey": 70,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/B4_mf.flac",
+          "rootMidi": 71,
+          "loKey": 71,
+          "hiKey": 72,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/Cs5_mf.flac",
+          "rootMidi": 73,
+          "loKey": 73,
+          "hiKey": 74,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/Ds5_mf.flac",
+          "rootMidi": 75,
+          "loKey": 75,
+          "hiKey": 76,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/F5_mf.flac",
+          "rootMidi": 77,
+          "loKey": 77,
+          "hiKey": 78,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/G5_mf.flac",
+          "rootMidi": 79,
+          "loKey": 79,
+          "hiKey": 80,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/A5_mf.flac",
+          "rootMidi": 81,
+          "loKey": 81,
+          "hiKey": 82,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/horn/B5_mf.flac",
+          "rootMidi": 83,
+          "loKey": 83,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "piano": {
+      "displayName": "Piano",
+      "kind": "solo",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/sgm/piano/A0_mf.flac",
+          "rootMidi": 21,
+          "loKey": 0,
+          "hiKey": 22,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/B0_mf.flac",
+          "rootMidi": 23,
+          "loKey": 23,
+          "hiKey": 24,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Cs1_mf.flac",
+          "rootMidi": 25,
+          "loKey": 25,
+          "hiKey": 26,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Ds1_mf.flac",
+          "rootMidi": 27,
+          "loKey": 27,
+          "hiKey": 28,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/F1_mf.flac",
+          "rootMidi": 29,
+          "loKey": 29,
+          "hiKey": 30,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/G1_mf.flac",
+          "rootMidi": 31,
+          "loKey": 31,
+          "hiKey": 32,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/A1_mf.flac",
+          "rootMidi": 33,
+          "loKey": 33,
+          "hiKey": 34,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/B1_mf.flac",
+          "rootMidi": 35,
+          "loKey": 35,
+          "hiKey": 36,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Cs2_mf.flac",
+          "rootMidi": 37,
+          "loKey": 37,
+          "hiKey": 38,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Ds2_mf.flac",
+          "rootMidi": 39,
+          "loKey": 39,
+          "hiKey": 40,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/F2_mf.flac",
+          "rootMidi": 41,
+          "loKey": 41,
+          "hiKey": 42,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/G2_mf.flac",
+          "rootMidi": 43,
+          "loKey": 43,
+          "hiKey": 44,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/A2_mf.flac",
+          "rootMidi": 45,
+          "loKey": 45,
+          "hiKey": 46,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/B2_mf.flac",
+          "rootMidi": 47,
+          "loKey": 47,
+          "hiKey": 48,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Cs3_mf.flac",
+          "rootMidi": 49,
+          "loKey": 49,
+          "hiKey": 50,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Ds3_mf.flac",
+          "rootMidi": 51,
+          "loKey": 51,
+          "hiKey": 52,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/F3_mf.flac",
+          "rootMidi": 53,
+          "loKey": 53,
+          "hiKey": 54,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/G3_mf.flac",
+          "rootMidi": 55,
+          "loKey": 55,
+          "hiKey": 56,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/A3_mf.flac",
+          "rootMidi": 57,
+          "loKey": 57,
+          "hiKey": 58,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/B3_mf.flac",
+          "rootMidi": 59,
+          "loKey": 59,
+          "hiKey": 60,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Cs4_mf.flac",
+          "rootMidi": 61,
+          "loKey": 61,
+          "hiKey": 62,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Ds4_mf.flac",
+          "rootMidi": 63,
+          "loKey": 63,
+          "hiKey": 64,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/F4_mf.flac",
+          "rootMidi": 65,
+          "loKey": 65,
+          "hiKey": 66,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/G4_mf.flac",
+          "rootMidi": 67,
+          "loKey": 67,
+          "hiKey": 68,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/A4_mf.flac",
+          "rootMidi": 69,
+          "loKey": 69,
+          "hiKey": 70,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/B4_mf.flac",
+          "rootMidi": 71,
+          "loKey": 71,
+          "hiKey": 72,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Cs5_mf.flac",
+          "rootMidi": 73,
+          "loKey": 73,
+          "hiKey": 74,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Ds5_mf.flac",
+          "rootMidi": 75,
+          "loKey": 75,
+          "hiKey": 76,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/F5_mf.flac",
+          "rootMidi": 77,
+          "loKey": 77,
+          "hiKey": 78,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/G5_mf.flac",
+          "rootMidi": 79,
+          "loKey": 79,
+          "hiKey": 80,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/A5_mf.flac",
+          "rootMidi": 81,
+          "loKey": 81,
+          "hiKey": 82,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/B5_mf.flac",
+          "rootMidi": 83,
+          "loKey": 83,
+          "hiKey": 84,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Cs6_mf.flac",
+          "rootMidi": 85,
+          "loKey": 85,
+          "hiKey": 86,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Ds6_mf.flac",
+          "rootMidi": 87,
+          "loKey": 87,
+          "hiKey": 88,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/F6_mf.flac",
+          "rootMidi": 89,
+          "loKey": 89,
+          "hiKey": 90,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/G6_mf.flac",
+          "rootMidi": 91,
+          "loKey": 91,
+          "hiKey": 92,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/A6_mf.flac",
+          "rootMidi": 93,
+          "loKey": 93,
+          "hiKey": 94,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/B6_mf.flac",
+          "rootMidi": 95,
+          "loKey": 95,
+          "hiKey": 96,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Cs7_mf.flac",
+          "rootMidi": 97,
+          "loKey": 97,
+          "hiKey": 98,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/Ds7_mf.flac",
+          "rootMidi": 99,
+          "loKey": 99,
+          "hiKey": 100,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/F7_mf.flac",
+          "rootMidi": 101,
+          "loKey": 101,
+          "hiKey": 102,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/G7_mf.flac",
+          "rootMidi": 103,
+          "loKey": 103,
+          "hiKey": 104,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/A7_mf.flac",
+          "rootMidi": 105,
+          "loKey": 105,
+          "hiKey": 106,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/piano/B7_mf.flac",
+          "rootMidi": 107,
+          "loKey": 107,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    },
+    "violin-section": {
+      "displayName": "Violin (Section)",
+      "kind": "section",
+      "sampledVibrato": false,
+      "transposeSemis": 0,
+      "zones": [
+        {
+          "file": "samples/sgm/violin-section/G3_mf.flac",
+          "rootMidi": 55,
+          "loKey": 0,
+          "hiKey": 56,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/A3_mf.flac",
+          "rootMidi": 57,
+          "loKey": 57,
+          "hiKey": 58,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/B3_mf.flac",
+          "rootMidi": 59,
+          "loKey": 59,
+          "hiKey": 60,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/Cs4_mf.flac",
+          "rootMidi": 61,
+          "loKey": 61,
+          "hiKey": 62,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/Ds4_mf.flac",
+          "rootMidi": 63,
+          "loKey": 63,
+          "hiKey": 64,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/F4_mf.flac",
+          "rootMidi": 65,
+          "loKey": 65,
+          "hiKey": 66,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/G4_mf.flac",
+          "rootMidi": 67,
+          "loKey": 67,
+          "hiKey": 68,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/A4_mf.flac",
+          "rootMidi": 69,
+          "loKey": 69,
+          "hiKey": 70,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/B4_mf.flac",
+          "rootMidi": 71,
+          "loKey": 71,
+          "hiKey": 72,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/Cs5_mf.flac",
+          "rootMidi": 73,
+          "loKey": 73,
+          "hiKey": 74,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/Ds5_mf.flac",
+          "rootMidi": 75,
+          "loKey": 75,
+          "hiKey": 76,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/F5_mf.flac",
+          "rootMidi": 77,
+          "loKey": 77,
+          "hiKey": 78,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/G5_mf.flac",
+          "rootMidi": 79,
+          "loKey": 79,
+          "hiKey": 80,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/A5_mf.flac",
+          "rootMidi": 81,
+          "loKey": 81,
+          "hiKey": 82,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/B5_mf.flac",
+          "rootMidi": 83,
+          "loKey": 83,
+          "hiKey": 84,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/Cs6_mf.flac",
+          "rootMidi": 85,
+          "loKey": 85,
+          "hiKey": 86,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/Ds6_mf.flac",
+          "rootMidi": 87,
+          "loKey": 87,
+          "hiKey": 88,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/F6_mf.flac",
+          "rootMidi": 89,
+          "loKey": 89,
+          "hiKey": 90,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/G6_mf.flac",
+          "rootMidi": 91,
+          "loKey": 91,
+          "hiKey": 92,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/A6_mf.flac",
+          "rootMidi": 93,
+          "loKey": 93,
+          "hiKey": 94,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/B6_mf.flac",
+          "rootMidi": 95,
+          "loKey": 95,
+          "hiKey": 96,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/Cs7_mf.flac",
+          "rootMidi": 97,
+          "loKey": 97,
+          "hiKey": 98,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        },
+        {
+          "file": "samples/sgm/violin-section/Ds7_mf.flac",
+          "rootMidi": 99,
+          "loKey": 99,
+          "hiKey": 127,
+          "dynamic": "mf",
+          "vib": false,
+          "rr": 1
+        }
+      ]
+    }
+  }
+}
